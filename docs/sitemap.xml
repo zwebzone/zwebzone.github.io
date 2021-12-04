@@ -3,40 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/tags/blog/</loc>
+    <loc>https://zwebzone.github.io/tags/blog/</loc>
     <lastmod>2021-12-03T21:37:08+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/first_post/</loc>
+    <loc>https://zwebzone.github.io/posts/helloworld/</loc>
     <lastmod>2021-12-03T21:37:08+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://zwebzone.github.io/posts/</loc>
     <lastmod>2021-12-03T21:37:08+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://zwebzone.github.io/tags/</loc>
     <lastmod>2021-12-03T21:37:08+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://zwebzone.github.io/</loc>
     <lastmod>2021-12-03T21:37:08+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://zwebzone.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/projects/</loc>
+    <loc>https://zwebzone.github.io/projects/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://zwebzone.github.io/about/</loc>
   </url>
   
 </urlset>
