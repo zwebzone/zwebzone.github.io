@@ -28,6 +28,21 @@
   </url>
   
   <url>
+    <loc>https://zwebzone.github.io/tags/pursuit/</loc>
+    <lastmod>0002-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/pursuit/</loc>
+    <lastmod>0002-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/pursuit/untitled/</loc>
+    <lastmod>0002-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zwebzone.github.io/categories/</loc>
   </url>
   
@@ -36,7 +51,37 @@
   </url>
   
   <url>
-    <loc>https://zwebzone.github.io/about/</loc>
+    <loc>https://zwebzone.github.io/pursuit/research/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/profile/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/pursuit/sleep/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/pursuit/languages/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/pursuit/exercise/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/pursuit/diet/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/pursuit/bangumi/</loc>
+    <lastmod>0000-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/pursuit/music/</loc>
+    <lastmod>0000-01-01T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
