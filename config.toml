@@ -11,13 +11,10 @@ publishDir = "docs"
 # Automatically generate robots.txt
 enableRobotsTXT = true
 
+enableEmoji = true
+
 [menu]
   
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 1
 
   [[menu.main]]
     # Unique identifer for a menu item
@@ -35,35 +32,41 @@ enableRobotsTXT = true
     name = "Posts"
 
     # Weights are used to determine the ordering
-    weight = 2
+    weight = 1
 
   
-  
-  [[menu.main]]
-    identifier = "pursuit"
-    name = "Pursuit"
-    url = "/pursuit/"
-    weight = 3
-
   [[menu.main]]
     identifier = "projects"
     name = "Projects"
     url = "/projects/"
-    weight = 4
+    weight = 2
 
   [[menu.main]]
     identifier = "profile"
     name = "Profile"
     url = "/profile/"
-    weight = 5
+    weight = 3
+
+   [[menu.main]]
+    identifier = "pursuit"
+    url = "/pursuit/"
+    weight = 4
+    pre = "<span data-feather='activity'></span>"
+
     
   [[menu.main]]
     identifier = "github"
     url = "https://github.com/zwebzone"
-    weight = 6
+    weight = 5
     
     # We use feather-icons: https://feathericons.com/
     pre = "<span data-feather='github'></span>"
+
+  [[menu.main]]
+    identifier = "tags"
+    url = "/tags/"
+    weight = 6
+    pre = "<span data-feather='tag'></span>"
 
 [params]
   # URL for the avatar on homepage
