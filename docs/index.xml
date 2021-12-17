@@ -6,7 +6,37 @@
     <description>Recent content on zwebrain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Dec 2021 21:37:08 +0800</lastBuildDate><atom:link href="https://zwebzone.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zwebzone.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Note - (Advanced) AI</title>
+      <link>https://zwebzone.github.io/notes/note-ai/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zwebzone.github.io/notes/note-ai/</guid>
+      <description>11. Feature Engineering 12. Markov Decision Process </description>
+    </item>
+    
+    <item>
+      <title>Note - Convex Optimization</title>
+      <link>https://zwebzone.github.io/notes/note-convexoptimization/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zwebzone.github.io/notes/note-convexoptimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Note - CS 330 Deep Multi-Task and Meta Learning</title>
+      <link>https://zwebzone.github.io/notes/note-metalearning/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zwebzone.github.io/notes/note-metalearning/</guid>
+      <description> Course: CS 330 Deep Multi-Task and Meta Learning (stanford.edu) Lecture videos: Youtube or Bilibili  Lecture 1 Deep learning allows us to handle unstructured inputs without hand-engineering features with less domain knowledge.
+For &amp;ldquo;few-shot learning&amp;rdquo;, leveraging prior experience, learning quickly something new.
+For multi-task learning, different tasks need to share some structure. Learn all of the tasks more quickly or more proficiently than learning them independently.
+Lecture 2 </description>
+    </item>
+    
     <item>
       <title>Hello World</title>
       <link>https://zwebzone.github.io/posts/helloworld/</link>
@@ -34,7 +64,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zwebzone.github.io/pursuit/research/</guid>
-      <description>   日期 读书/文献 笔记 代码 (ง •_•)ง     12.15 超分，领域自适应，语义分割      12.16               </description>
+      <description>Todolist  Stanford CS330 - 深度多任务和元学习 SUSTech - 高级人工智能、机器学习 SUSTech - OOAD Book - 模式识别与机器学习     日期 读书/文献 笔记 代码 (ง •_•)ง     12.15 超分，领域自适应，语义分割      12.16   MTSP作业优化 联培录取   12.17  CS330 Lecture 1      </description>
     </item>
     
     <item>
@@ -43,7 +73,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zwebzone.github.io/pursuit/love/</guid>
-      <description>   日期 小心情 小确幸 （づ￣3￣）づ╭❤～     12.15                   </description>
+      <description>   日期 小心情 小确幸 （づ￣3￣）づ╭❤～     12.15 开好多会     12.16  巧克力, 联培    12.17  国合部面试     </description>
     </item>
     
     <item>
@@ -52,7 +82,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zwebzone.github.io/pursuit/sleep/</guid>
-      <description>   日期 起床时间 午休时间 晚睡时间 (￣o￣) . z Z     12.15 08: 10 12:20 - 13:20                    </description>
+      <description>   日期 起床时间 午休时间 晚睡时间 (￣o￣) . z Z     12.15 08: 10 12: 20 - 13: 20 00: 10    12.16 08: 20 null 00: 30    12.17 08: 00 13: 00 - 14: 25      </description>
     </item>
     
     <item>
@@ -70,7 +100,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zwebzone.github.io/pursuit/exercise/</guid>
-      <description>   日期 跑步 俯卧撑 深蹲 哑铃 卷腹 引体 (๑•̀ㅂ•́)و✧     12.15 null null null null null null    12.16 8*400 null null null null 3               </description>
+      <description>   日期 跑步 俯卧撑 深蹲 哑铃 卷腹 引体 (๑•̀ㅂ•́)و✧     12.15 null null null null null null 69.3   12.16 8*400 null null null null 3 69.1   12.17           </description>
     </item>
     
     <item>
@@ -79,7 +109,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zwebzone.github.io/pursuit/diet/</guid>
-      <description>   日期 早餐 午餐 晚餐 (⊙﹏⊙)     12.15 炒面+煎蛋+茶蛋+豆浆 八个饺子 卤肉饭    12.16 null 海鲜炒乌冬 土鸡汤+酱香饼            </description>
+      <description>   日期 早餐 午餐 晚餐 (⊙﹏⊙)     12.15 炒面+煎蛋+茶蛋+豆浆 八个饺子 卤肉饭    12.16 null 海鲜炒乌冬 土鸡汤+酱香饼    12.17 锅盔+牛肉汤 西红柿鸡蛋面 豆干炒肉+米饭     </description>
     </item>
     
     <item>

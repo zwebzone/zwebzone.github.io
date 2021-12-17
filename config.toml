@@ -42,31 +42,37 @@ enableEmoji = true
     weight = 2
 
   [[menu.main]]
-    identifier = "profile"
-    name = "Profile"
-    url = "/profile/"
+    identifier = "lovely"
+    url = "/lovely/"
     weight = 3
-
-   [[menu.main]]
-    identifier = "pursuit"
-    url = "/pursuit/"
-    weight = 4
-    pre = "<span data-feather='activity'></span>"
-
-    
-  [[menu.main]]
-    identifier = "github"
-    url = "https://github.com/zwebzone"
-    weight = 5
-    
-    # We use feather-icons: https://feathericons.com/
-    pre = "<span data-feather='github'></span>"
+    pre = "<span data-feather='smile'></span>"
 
   [[menu.main]]
     identifier = "tags"
     url = "/tags/"
-    weight = 6
+    weight = 4
     pre = "<span data-feather='tag'></span>"
+  
+  [[menu.main]]
+    identifier = "notes"
+    url = "/notes/"
+    weight = 5
+    pre = "<span data-feather='pen-tool'></span>"
+
+  [[menu.main]]
+    identifier = "pursuit"
+    url = "/pursuit/"
+    weight = 6
+    pre = "<span data-feather='activity'></span>"
+
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/zwebzone"
+    weight = 7
+    
+    # We use feather-icons: https://feathericons.com/
+    pre = "<span data-feather='github'></span>"
+
 
 [params]
   # URL for the avatar on homepage
@@ -76,7 +82,7 @@ enableEmoji = true
   avatarSize = "size-m"
 
   # Description to display on homepage
-  description = "Hello, world!"
+  description = "zwebrain is zwewebbrainrainraaiain!"
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#FF4D4D"
