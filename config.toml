@@ -65,13 +65,13 @@ enableEmoji = true
     weight = 6
     pre = "<span data-feather='activity'></span>"
 
-  [[menu.main]]
-    identifier = "github"
-    url = "https://github.com/zwebzone"
-    weight = 7
+  #[[menu.main]]
+  #  identifier = "github"
+  #  url = "https://github.com/zwebzone"
+  #  weight = 7
     
     # We use feather-icons: https://feathericons.com/
-    pre = "<span data-feather='github'></span>"
+  #  pre = "<span data-feather='github'></span>"
 
 
 [params]
