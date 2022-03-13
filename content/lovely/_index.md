@@ -16,7 +16,7 @@ I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engin
 ## News
 
 - My graduation project will be related to transfer learning and semantic segmentation.
-- We started building AR applications on Hololens2!
+- We started building AR applications on Hololens 2!
 
 ---
 

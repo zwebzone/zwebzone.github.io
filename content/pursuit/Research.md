@@ -9,7 +9,6 @@ tags: ["pursuit"]
 
 - 李宏毅机器学习2021
 - Stanford CS330 - 深度多任务和元学习
-- Book - 模式识别与机器学习
 - Book - 凸优化
 
 

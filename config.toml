@@ -82,8 +82,9 @@ enableEmoji = true
   avatarSize = "size-m"
 
   # Description to display on homepage
-  description = "zwebrain is zwewebbrainrainraaiain!"
-
+  # description = "zwebrain is zwewebbrainrainraaiain!"
+  description = "就算世界太多美好　只一眨眼就变幻　可回忆始终璀璨"
+  
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#FF4D4D"
 
