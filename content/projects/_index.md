@@ -5,7 +5,7 @@ type: page
 
 ### Current main projects
 
-1. 
+1. Solar photovoltaic panel detection based on transfer learning
 
 
 

@@ -42,28 +42,24 @@ enableEmoji = true
     weight = 2
 
   [[menu.main]]
-    identifier = "lovely"
-    url = "/lovely/"
-    weight = 3
-    pre = "<span data-feather='smile'></span>"
-
-  [[menu.main]]
     identifier = "tags"
+    name = "Tags"
     url = "/tags/"
-    weight = 4
-    pre = "<span data-feather='tag'></span>"
-  
-  [[menu.main]]
-    identifier = "notes"
-    url = "/notes/"
-    weight = 5
-    pre = "<span data-feather='pen-tool'></span>"
+    weight = 3
+    # pre = "<span data-feather='tag'></span>"
 
   [[menu.main]]
-    identifier = "pursuit"
-    url = "/pursuit/"
-    weight = 6
-    pre = "<span data-feather='activity'></span>"
+    identifier = "lovely"
+    name = "About"
+    url = "/lovely/"
+    weight = 4
+    # pre = "<span data-feather='smile'></span>"
+
+  #[[menu.main]]
+  #  identifier = "pursuit"
+  #  url = "/pursuit/"
+  #  weight = 6
+  #  pre = "<span data-feather='activity'></span>"
 
   #[[menu.main]]
   #  identifier = "github"
@@ -99,3 +95,11 @@ enableEmoji = true
 
   # Footer text
   footer = "zwebrain"
+
+  socialIcons = [
+    {name = "github", url = "https://github.com/zwebzone"},
+    {name = "bilibili", url = "https://space.bilibili.com/8519667"},
+    {name = "qzone", url = "https://user.qzone.qq.com/1173105448"},
+  ]
+
+  metaKeywords = ["blog", "zwebrain"]

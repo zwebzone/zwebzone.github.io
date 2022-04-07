@@ -3,24 +3,25 @@ title: "庄湛 @zwebrain"
 type: page
 ---
 
-| [Email]                           | [QQ]       | [Birthday]   |
-| :-------------------------------- | ---------- | ------------ |
-| 11811721 [at] mail.sustech.edu.cn | 1173105448 | 05.16, 11.20 |
+| [Email]                           | [QQ]       | [WeChat]     | [Birthday]   |
+| :-------------------------------- | ---------- | ------------ | ------------ |
+| 11811721 [at] mail.sustech.edu.cn | 1173105448 | meta-learner | 05.16, 11.20 |
 
-## Brief Biography
+
+
+## 😃 Brief Biography
 
 I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engineering of [SUSTech](https://www.sustech.edu.cn/), supervised by Professor [Xuan Song](https://faculty.sustech.edu.cn/songx/).  My research interests are mainly in Urban Computing and Machine Learning.
 
 ---
 
-## News
+## 🆕 News
 
-- My graduation project will be related to transfer learning and semantic segmentation.
-- We started building AR applications on Hololens 2!
+- I started learning meta-learning, transfer learning, multi-task learning and continual learning!
 
 ---
 
-## Publications
+## 📎 Publications
 
 #### Conference Papers
 
@@ -28,7 +29,7 @@ I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engin
 
 ---
 
-## Honors
+## 🏆 Honors
 
 - First Prize, Annual Outstanding Student Scholarship, SUSTech, 2021
 - First Prize (5th), ASC20-21 Student Supercomputer Challenge, 2021
@@ -46,7 +47,7 @@ I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engin
 
 ---
 
-## Patents
+## 🧷 Patents
 
 1. 【实审】宋轩，**庄湛**，张浩然，云沐晟，林贵旭。基于区块链的数据处理方法、装置、设备及存储介质。
 2. 【实审】宋轩，**庄湛**，张浩然，邹若彤，聂雨荷，云沐晟，潘泰仰。基于区块链的挖矿方法、装置、计算机设备及存储介质。
@@ -57,7 +58,7 @@ I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engin
 
 ---
 
-## Experiences
+## 👨‍💻 Experiences
 
 - 2021 Jun-Aug, **Intern**, Client Engineer, Intelligent Mobility Department, CSIG, Tencent
 - 2020 Jun-Aug, **Intern**, Android Development Engineer, Moon Environment Technology Co., Ltd.
@@ -65,7 +66,7 @@ I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engin
 
 ---
 
-## Extracurricular Activities
+## 🥳 Extracurricular Activities
 
 - Member, Staff Student Committee, Department of Computer Science and Engineering, SUSTech
 - Member, SUSTech Supercomputing Team
@@ -78,3 +79,12 @@ I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engin
 - Commissary in Charge of Studies, Class 1510, Shijiazhuang No.2 Middle School
 
 ---
+
+## 💗 Favorite
+
+- The [homepage](https://nyh-dolphin.github.io/) of my beloved.
+
+- The [animations](https://zweb.zone/pursuit/bangumi/) and [music](https://zweb.zone/pursuit/music/) that I recommend.
+
+   
+
