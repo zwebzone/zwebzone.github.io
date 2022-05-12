@@ -102,6 +102,7 @@ var _hmt = _hmt || [];
     {name = "github", url = "https://github.com/zwebzone"},
     {name = "bilibili", url = "https://space.bilibili.com/8519667"},
     {name = "qzone", url = "https://user.qzone.qq.com/1173105448"},
+    {name = "outlook", url = "mailto:11811721@mail.sustech.edu.cn"}
   ]
 
   metaKeywords = ["blog", "zwebrain"]
