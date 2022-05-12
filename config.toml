@@ -93,7 +93,7 @@ var _hmt = _hmt || [];
   # If you want to display posts on the homepage, the options are
   # "popular" (order posts by weight), "recent" (order posts by date)
   # or "" (do not display, default option)
-  showPostsOnHomePage = "recent"
+  showPostsOnHomePage = ""
 
   # Footer text
   footer = "zwebrain"
