@@ -11,7 +11,7 @@ type: page
 
 ## 😃 Brief Biography
 
-I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engineering of [SUSTech](https://www.sustech.edu.cn/), supervised by Professor [Xuan Song](https://faculty.sustech.edu.cn/songx/).  My research interests are mainly in Urban Computing and Machine Learning.
+I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engineering of [SUSTech](https://www.sustech.edu.cn/), supervised by Professor [Xuan Song](https://faculty.sustech.edu.cn/songx/). I am going to study for my doctorate in the collaborative program of SUSTech and City University of Hong Kong under the dual supervision of [Yu Zhang](https://yuzhanghk.github.io/) and [Ying Wei](https://wei-ying.net/). My research interests are mainly in Urban Computing and Machine Learning.
 
 ---
 
@@ -21,16 +21,11 @@ I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engin
 
 ---
 
-## 📎 Publications
-
-#### Conference Papers
-
-1. Peiran Li, **Zhan Zhuang**, Zhiling Guo, Qi Chen, Chenchen Song, Zhengguang Liu, Haoran Zhang. A Multi-task Deep Learning Model for Solving Imbalance Problem in Photovoltaic Panel Semantic Segmentation. In International Conference on Applied Energy 2021.
-
----
-
 ## 🏆 Honors
 
+- Outstanding Graduate Award, SUSTech, 2022
+- Outstanding Graduate Award at Department of CSE, SUSTech, 2022
+- Top 10 Graduate Award at Shude College, SUSTech, 2022
 - First Prize, Annual Outstanding Student Scholarship, SUSTech, 2021
 - First Prize (5th), ASC20-21 Student Supercomputer Challenge, 2021
 - Honorable Mention, Interdisciplinary Contest In Modeling (ICM), 2021
@@ -44,17 +39,6 @@ I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engin
 - Excellent League Member, SUSTech, 2019
 - Third Prize, Scholarships for Outstanding Freshmen, 2018
 - Excellent Student Cadre, Shijiazhuang No.2 Middle School, 2015, 2016, 2017
-
----
-
-## 🧷 Patents
-
-1. 【实审】宋轩，**庄湛**，张浩然，云沐晟，林贵旭。基于区块链的数据处理方法、装置、设备及存储介质。
-2. 【实审】宋轩，**庄湛**，张浩然，邹若彤，聂雨荷，云沐晟，潘泰仰。基于区块链的挖矿方法、装置、计算机设备及存储介质。
-3. 【实审】宋轩，聂雨荷，张浩然，**庄湛**。 获取密接人员信息方法、装置、服务器和存储介质。
-4. 【实审】宋轩，邹若彤，张浩然，**庄湛**，云沐晟，潘泰仰。一种基于区块链的挖矿方法、装置、移动终端及存储介质。
-5. 【实审】宋轩，云沐晟，张浩然，林贵旭，**庄湛**。基于区块链的数据处理方法、装置、电子设备及存储介质。
-6. 【实审】宋轩，林贵旭，张浩然，云沐晟，**庄湛**。区块链风险值管理方法、装置、电子设备及存储介质。
 
 ---
 

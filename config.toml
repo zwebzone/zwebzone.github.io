@@ -42,32 +42,24 @@ enableEmoji = true
     weight = 2
 
   [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 3
+
+  [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 3
+    weight = 4
     # pre = "<span data-feather='tag'></span>"
 
   [[menu.main]]
     identifier = "lovely"
     name = "About"
     url = "/lovely/"
-    weight = 4
+    weight = 5
     # pre = "<span data-feather='smile'></span>"
-
-  #[[menu.main]]
-  #  identifier = "pursuit"
-  #  url = "/pursuit/"
-  #  weight = 6
-  #  pre = "<span data-feather='activity'></span>"
-
-  #[[menu.main]]
-  #  identifier = "github"
-  #  url = "https://github.com/zwebzone"
-  #  weight = 7
-    
-    # We use feather-icons: https://feathericons.com/
-  #  pre = "<span data-feather='github'></span>"
 
 
 [params]

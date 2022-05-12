@@ -5,13 +5,13 @@ type: page
 
 ### Current main projects
 
-1. Solar photovoltaic panel detection based on transfer learning
+1. Solar Photovoltaic Panel Detection Based on Transfer Learning
 
 
 
 ### Past interesting projects
 
-1. Mcoin: Blockchain Based on Mobile Interaction :scroll: [Poster](McoinPoster.pdf) :link: [Report](McoinReport.pdf)
+1. Mcoin: Blockchain Based on Mobile Interaction :scroll: [Poster](McoinPoster.pdf) 
 2. Epidemic Risk Propagation Calculation Model
 3. SUSTech Pokemon
 4. Geng Reference Search and Animation Recommendation
