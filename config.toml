@@ -13,6 +13,13 @@ enableRobotsTXT = true
 
 enableEmoji = true
 
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+    ordered = false
+
 [menu]
   
 
@@ -101,6 +108,7 @@ var _hmt = _hmt || [];
   socialIcons = [
     {name = "github", url = "https://github.com/zwebzone"},
     {name = "bilibili", url = "https://space.bilibili.com/8519667"},
+    {name = "youtube", url = "https://www.youtube.com/channel/UCSCddBiG0wKSliowiaUaOGg"},
     {name = "qzone", url = "https://user.qzone.qq.com/1173105448"},
     {name = "outlook", url = "mailto:11811721@mail.sustech.edu.cn"}
   ]

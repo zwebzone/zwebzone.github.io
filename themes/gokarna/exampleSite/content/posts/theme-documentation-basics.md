@@ -5,6 +5,7 @@ date: 2020-03-06T21:29:01+08:00
 description: "A guide to getting started with Gokarna"
 tags: ["installation", "configuration", "markdown"]
 type: post
+showTableOfContents: true
 ---
 
 Gokarna is an opinionated theme with a focus on minimalism and simplicity.
@@ -59,7 +60,7 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    # Unique identifer for a menu item
+    # Unique identifier for a menu item
     identifier = "posts"
 
     url = "/posts/"
