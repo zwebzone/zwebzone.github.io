@@ -11,15 +11,13 @@ type: page
 
 ## 😃 Brief Biography
 
-I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engineering of [SUSTech](https://www.sustech.edu.cn/), supervised by Professor [Xuan Song](https://faculty.sustech.edu.cn/songx/). I am going to study for my doctorate in the collaborative program of SUSTech and City University of Hong Kong under the dual supervision of [Yu Zhang](https://yuzhanghk.github.io/) and [Ying Wei](https://wei-ying.net/). My research interests are mainly in Urban Computing and Machine Learning.
+I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engineering of [SUSTech](https://www.sustech.edu.cn/), supervised by Professor [Xuan Song](https://faculty.sustech.edu.cn/songx/). I am going to study for my doctorate in the collaborative program of SUSTech and City University of Hong Kong under the dual supervision of [Yu Zhang](https://yuzhanghk.github.io/) and [Ying Wei](https://wei-ying.net/). My research interests are mainly in Transfer Learning, Meta-learning and Continual Learning.
 
 ---
 
 ## 🆕 News
 
-- I started learning meta-learning, transfer learning, multi-task learning and continual learning!
-
----
+- Graduation is coming...
 
 ## 🏆 Honors
 
