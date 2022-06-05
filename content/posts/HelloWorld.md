@@ -1,6 +1,6 @@
 ---
-title: "Hello World"
-date: 2021-12-03T21:37:08+08:00
+title: "你好，世界"
+date: 2021-12-03
 draft: false
 type: "post"
 tags: ["blog"]

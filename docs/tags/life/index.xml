@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on zwebrain</title>
-    <link>https://zwebzone.github.io/posts/</link>
-    <description>Recent content in Posts on zwebrain</description>
+    <title>life on zwebrain</title>
+    <link>https://zwebzone.github.io/tags/life/</link>
+    <description>Recent content in life on zwebrain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jun 2022 00:23:37 +0800</lastBuildDate><atom:link href="https://zwebzone.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jun 2022 00:23:37 +0800</lastBuildDate><atom:link href="https://zwebzone.github.io/tags/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>进行一个计划的重启</title>
       <link>https://zwebzone.github.io/posts/220606_plan/</link>
@@ -34,18 +34,6 @@
 现在也许还来得及？这也是我想写下这篇博客的初衷，马上重启，重启，前进，前进！身体虽然有些疲惫，但思想上希望明天我还能保持那年的纯净。生活走走停停，幸运伴随，悲喜也伴随。不仅是做好岗位上的每件事，也要愿意做好岗位上的每件事。因为还能想起那时的清澈，因为总会想起你们的话语，因此，我也会重启，抖擞精神。可爱吧。
 庄湛
 2022.06.05 于湖畔6栋</description>
-    </item>
-    
-    <item>
-      <title>你好，世界</title>
-      <link>https://zwebzone.github.io/posts/helloworld/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://zwebzone.github.io/posts/helloworld/</guid>
-      <description>H1 H2 H3 H4 H5 H6  code
-  todo todo    I used to say&amp;hellip;
- I used to say&amp;hellip;
-   import code  我又双叒叕开始做博客了！这次的主题很简洁！我很喜欢！</description>
     </item>
     
   </channel>
