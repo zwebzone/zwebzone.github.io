@@ -6,7 +6,17 @@
     <description>Recent content in Posts on zwebrain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zwebzone.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zwebzone.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【恋爱】和小河鱼在一起两周年啦</title>
+      <link>https://zwebzone.github.io/posts/220612_lovinganniversary/</link>
+      <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zwebzone.github.io/posts/220612_lovinganniversary/</guid>
+      <description> 往后依然要做小河鱼坚定不移的守护者哦，未来一定比想象更美好，一起加油吧！
+  </description>
+    </item>
+    
     <item>
       <title>【含英咀华】因果推理导论系列-2</title>
       <link>https://zwebzone.github.io/posts/220609_causalinference2/</link>
@@ -26,7 +36,7 @@ Yi(1) ：个体 i 在有处理下的潜在结果
  有了以上定义，用有无处理下潜在结果的差值，我们还可以进一步定义对于任一个体的个体处理效果（Individual Treatment Effect，ITE）= Yi(1) - Yi(0)。考虑两类不同个体分别对应上述场景，我们可以得知：对于第一类个体，ITE = 0，有无狗狗对其开心没有因果效应，对于第二类个体，则ITE = 1，可以说明有无狗狗影响心情转变。
 因果推理的基本问题 但是“要观察到某一特定个体的所有潜在结果是不可能的”！除非你有时间机器，否则对于个体，特定选择（处理）只有一次。这也正是因果推理的基本问题，对于一个个体，你根本无法同时计算所有的潜在结果（因果推理旨在做出因果论断，这取决于潜在结果，而非传统机器学习中的观察结果）。
 因此，引出了下一个重要定义——反事实（Counterfactual），即没有（也不能）观察到的潜在结果被称为反事实，因为其与事实相反。但注意，在所谓事实或反事实还没有真正被观察到时，它们都只是潜在结果。
-跳脱基本问题 平均处理效果 既然ITE无法求解，我们能获取哪些统计量去解释呢，找个平均处理效果（Average Treatment Effect，ATE）？那先看看可以获得什么数据吧，如表：
+跳脱基本问题 平均处理效果 如果我们可以从一个纯粹的统计量（例如E[Y|t]）中计算出一个因果量（例如E[Y(t)]），那么这个过程被称为识别（Identifiability）。既然ITE无法求解，我们能获取哪些统计量去解释呢，找个平均处理效果（Average Treatment Effect，ATE）？那先看看可以获得什么数据吧，如表：
 为了求解E[Y(1) - Y(0)]，可以直接E[Y(1)] - E[Y(0)] = E[Y|T=1] - E[Y|T=0]嘛？很不幸，这样因果关系就会变成关联关系了，就和统计学习方法的操作完全一致了。</description>
     </item>
     
