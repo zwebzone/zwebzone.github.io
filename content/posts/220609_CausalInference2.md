@@ -1,7 +1,7 @@
 ---
 title: "【含英咀华】因果推理导论系列-2"
 date: 2022-06-09
-draft: false
+draft: False
 type: "post"
 tags: ["note", "causal inference"]
 showTableOfContents: True
