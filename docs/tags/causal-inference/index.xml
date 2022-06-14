@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 09 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zwebzone.github.io/tags/causal-inference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【含英咀华】因果推理导论系列-2</title>
-      <link>https://zwebzone.github.io/posts/220609_causalinference2/</link>
+      <link>https://zwebzone.github.io/note/220609_causalinference2/</link>
       <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://zwebzone.github.io/posts/220609_causalinference2/</guid>
+      <guid>https://zwebzone.github.io/note/220609_causalinference2/</guid>
       <description>原书链接和课件：Introduction to Causal Inference from a Machine Learning Perspective
 本文介绍第二章《潜在结果》（Potential Outcomes）的内容
   第一章内容：【含英咀华】因果推理导论系列-1
@@ -32,10 +32,10 @@ Yi(1) ：个体 i 在有处理下的潜在结果
     
     <item>
       <title>【含英咀华】因果推理导论系列-1</title>
-      <link>https://zwebzone.github.io/posts/220607_causalinference1/</link>
+      <link>https://zwebzone.github.io/note/220607_causalinference1/</link>
       <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://zwebzone.github.io/posts/220607_causalinference1/</guid>
+      <guid>https://zwebzone.github.io/note/220607_causalinference1/</guid>
       <description>你好，这是第一个课本阅读系列——因果推理导论，大概就是读书笔记或总结一类的。如果你也对这个领域感兴趣，可以和我一起看看，这本书（或是说这个主题）如果上来看不懂，不要担心，后面的章节会一点一点弄懂的。
  原书链接和课件：Introduction to Causal Inference from a Machine Learning Perspective
 本文介绍第一章《动机：你为什么会在乎》（Motivation: Why You Might Care）的内容

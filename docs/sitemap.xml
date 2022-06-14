@@ -3,17 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zwebzone.github.io/tags/life/</loc>
+    <loc>https://zwebzone.github.io/essay/</loc>
     <lastmod>2022-06-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zwebzone.github.io/tags/love/</loc>
-    <lastmod>2022-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zwebzone.github.io/posts/</loc>
     <lastmod>2022-06-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,7 +23,7 @@
   </url>
   
   <url>
-    <loc>https://zwebzone.github.io/posts/220611_lovinganniversary/</loc>
+    <loc>https://zwebzone.github.io/essay/220611_lovinganniversary/</loc>
     <lastmod>2022-06-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,12 +38,17 @@
   </url>
   
   <url>
-    <loc>https://zwebzone.github.io/posts/220609_causalinference2/</loc>
+    <loc>https://zwebzone.github.io/note/</loc>
     <lastmod>2022-06-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zwebzone.github.io/posts/220607_causalinference1/</loc>
+    <loc>https://zwebzone.github.io/note/220609_causalinference2/</loc>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/note/220607_causalinference1/</loc>
     <lastmod>2022-06-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,13 +63,23 @@
   </url>
   
   <url>
-    <loc>https://zwebzone.github.io/posts/220606_plan/</loc>
+    <loc>https://zwebzone.github.io/essay/220606_plan/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zwebzone.github.io/posts/220605_resume/</loc>
+    <loc>https://zwebzone.github.io/essay/220605_resume/</loc>
     <lastmod>2022-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/tags/graduation/</loc>
+    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/essay/220602_graduation/</loc>
+    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -78,16 +88,12 @@
   </url>
   
   <url>
-    <loc>https://zwebzone.github.io/posts/211203_helloworld/</loc>
+    <loc>https://zwebzone.github.io/essay/211203_helloworld/</loc>
     <lastmod>2021-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zwebzone.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://zwebzone.github.io/projects/</loc>
   </url>
   
   <url>

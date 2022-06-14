@@ -28,9 +28,9 @@ enableEmoji = true
 
   [[menu.main]]
     # Unique identifer for a menu item
-    identifier = "posts"
+    identifier = "essay"
 
-    url = "/posts/"
+    url = "/essay/"
     
     # You can add extra information before the name (HTML format is supported), such as icons
     pre = ""
@@ -39,34 +39,51 @@ enableEmoji = true
     post = ""
 
     # Display name
-    name = "Posts"
+    name = "随笔"
 
     # Weights are used to determine the ordering
     weight = 1
 
-  
   [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects/"
+    # Unique identifer for a menu item
+    identifier = "note"
+
+    url = "/note/"
+    
+    # You can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+
+    # You can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+
+    # Display name
+    name = "笔记"
+
+    # Weights are used to determine the ordering
     weight = 2
+
+#  [[menu.main]]
+#    identifier = "projects"
+#    name = "Projects"
+#    url = "/projects/"
+#    weight = 2
 
   [[menu.main]]
     identifier = "publications"
-    name = "Publications"
+    name = "发表物"
     url = "/publications/"
     weight = 3
 
   [[menu.main]]
     identifier = "tags"
-    name = "Tags"
+    name = "标签"
     url = "/tags/"
     weight = 4
     # pre = "<span data-feather='tag'></span>"
 
   [[menu.main]]
     identifier = "lovely"
-    name = "About"
+    name = "关于"
     url = "/lovely/"
     weight = 5
     # pre = "<span data-feather='smile'></span>"

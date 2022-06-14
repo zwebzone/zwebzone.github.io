@@ -22,7 +22,7 @@ I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engin
 ## 🏆 Honors
 
 - Outstanding Graduate Award, SUSTech, 2022
-- Outstanding Graduate Award at Department of CSE, SUSTech, 2022
+- Highest Honors in Computer Science and Engineering, SUSTech, 2022
 - Top 10 Graduate Award at Shude College, SUSTech, 2022
 - First Prize, Annual Outstanding Student Scholarship, SUSTech, 2021
 - First Prize (5th), ASC20-21 Student Supercomputer Challenge, 2021
@@ -50,7 +50,7 @@ I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engin
 
 ## 🥳 Extracurricular Activities
 
-- Member, Staff Student Committee, Department of Computer Science and Engineering, SUSTech
+- Member, Staff Student Committee, Department of Computer Science and Engineering, SUSTech (计系树德书院班长)
 - Member, SUSTech Supercomputing Team
 - Member, Shude Peer Mentors (树德书院学长团)
 - Member, Teaching Department, Emergency Rescue Association, SUSTech
@@ -66,7 +66,7 @@ I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engin
 
 - The [homepage](https://nyh-dolphin.github.io/) of my beloved.
 
-- The [animations](https://zweb.zone/pursuit/bangumi/) and [music](https://zweb.zone/pursuit/music/) that I recommend.
+- The [animations](../pursuit/bangumi/) and [music](../pursuit/music/) that I recommend.
 
    
 

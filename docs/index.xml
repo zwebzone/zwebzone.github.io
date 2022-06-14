@@ -8,21 +8,21 @@
     <language>en</language>
     <lastBuildDate>Sat, 11 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zwebzone.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>【恋爱纪念】和小河鱼在一起两周年啦</title>
-      <link>https://zwebzone.github.io/posts/220611_lovinganniversary/</link>
+      <title>和小河鱼在一起两周年啦</title>
+      <link>https://zwebzone.github.io/essay/220611_lovinganniversary/</link>
       <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://zwebzone.github.io/posts/220611_lovinganniversary/</guid>
+      <guid>https://zwebzone.github.io/essay/220611_lovinganniversary/</guid>
       <description> 往后依然要做小河鱼坚定不移的守护者哦，未来一定比想象更美好，一起加油吧！
   </description>
     </item>
     
     <item>
       <title>【含英咀华】因果推理导论系列-2</title>
-      <link>https://zwebzone.github.io/posts/220609_causalinference2/</link>
+      <link>https://zwebzone.github.io/note/220609_causalinference2/</link>
       <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://zwebzone.github.io/posts/220609_causalinference2/</guid>
+      <guid>https://zwebzone.github.io/note/220609_causalinference2/</guid>
       <description>原书链接和课件：Introduction to Causal Inference from a Machine Learning Perspective
 本文介绍第二章《潜在结果》（Potential Outcomes）的内容
   第一章内容：【含英咀华】因果推理导论系列-1
@@ -42,10 +42,10 @@ Yi(1) ：个体 i 在有处理下的潜在结果
     
     <item>
       <title>【含英咀华】因果推理导论系列-1</title>
-      <link>https://zwebzone.github.io/posts/220607_causalinference1/</link>
+      <link>https://zwebzone.github.io/note/220607_causalinference1/</link>
       <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://zwebzone.github.io/posts/220607_causalinference1/</guid>
+      <guid>https://zwebzone.github.io/note/220607_causalinference1/</guid>
       <description>你好，这是第一个课本阅读系列——因果推理导论，大概就是读书笔记或总结一类的。如果你也对这个领域感兴趣，可以和我一起看看，这本书（或是说这个主题）如果上来看不懂，不要担心，后面的章节会一点一点弄懂的。
  原书链接和课件：Introduction to Causal Inference from a Machine Learning Perspective
 本文介绍第一章《动机：你为什么会在乎》（Motivation: Why You Might Care）的内容
@@ -73,20 +73,20 @@ Yi(1) ：个体 i 在有处理下的潜在结果
     
     <item>
       <title>进行一个计划的重启</title>
-      <link>https://zwebzone.github.io/posts/220606_plan/</link>
+      <link>https://zwebzone.github.io/essay/220606_plan/</link>
       <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://zwebzone.github.io/posts/220606_plan/</guid>
+      <guid>https://zwebzone.github.io/essay/220606_plan/</guid>
       <description>按照下面的表格，大概就是这样的一个计划吧，有几点比较重要：
  每周至少精读3篇论文和讲1篇论文，主要看近两年的论文，然后再溯源 坚持每天写代码，把想法实现出来，多进行实验 整理所学的知识，无论是在zotero上直接记笔记还是写博客和录视频 在生活中提升英语口语表达能力和英语听力 规律作息和经常锻炼 有所反思 整理一些有意义的博客文章系列：【赏奇析疑】（读论文），【含英咀华】（读课本）等  </description>
     </item>
     
     <item>
       <title>进行一个博客的重启</title>
-      <link>https://zwebzone.github.io/posts/220605_resume/</link>
+      <link>https://zwebzone.github.io/essay/220605_resume/</link>
       <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://zwebzone.github.io/posts/220605_resume/</guid>
+      <guid>https://zwebzone.github.io/essay/220605_resume/</guid>
       <description>6月2日，我的本科生毕设答辩结束了，伴随着连续的熬夜和不时的感伤，也算是本科生活就告一段落了。庆祝过后，这个端午，还是得了一场感冒，作为是前段时间一直撑着的结果吧，还好，至今，我一直算是幸运的。
 毕业设计说难不难，说容易也不容易。一方面，这个题目《基于迁移学习的太阳能光伏板识别》又是我之前没有接触的领域，并且也确实折腾了很多个月。另一方面，这个题目也是组里前人的基础上完成的，郭直灵学长也很耐心地陪伴了整个毕设周期。但回想起当时选题，多少也有些巧合。
 本来可能想做一些系统优化的工作，大概就是对光伏系统做一个数学建模构造一个优化问题，再结合最优选址等思路去试试，想着张浩然老师也许会指导指导。老师说，可以从基础的做起，便介绍了郭直灵老师指导我做一个遥感图像的光伏板识别任务。当时也恰逢申请，在很多道路中幸运地选择了联培和机器学习的方向以及张宇老师。这也就促使我想在迁移学习的方向上做做毕设，提前学习一下相关知识。但倘若，没有张浩然老师和宋老师的推荐、郭直灵老师的引导、托福的二战、雨荷的鼓励、张宇老师的同意其中一点，或许现在能否顺利毕业恐怕都要打上一个问号了。
@@ -101,11 +101,22 @@ Yi(1) ：个体 i 在有处理下的潜在结果
     </item>
     
     <item>
+      <title>我只想要拉住流年，好好的说声再见</title>
+      <link>https://zwebzone.github.io/essay/220602_graduation/</link>
+      <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zwebzone.github.io/essay/220602_graduation/</guid>
+      <description>既然毕业论文的落款日期是6月2日，那么，毕业的所感所想和一些纪念就放在这一页吧~
+未完待续……
+ “玉树芝兰，一码平川”  18级计系树德班级毕业班会 √ 工业实习第三批材料收集 √ 毕业设计论文资料统计 √ 毕业设计论文封面领取 √ 学生接收函收取 √ 毕业纪念衫尺码统计 √ 毕业纪念照片书资料收集，排版制作 √ 毕业设计论文装订版收集中  “惊醒睁眼，1817在跟前” “该换届了，你意向接替我的位置吗” “安全、文明、有序离校”  归还图书、教材 结清学费、住宿费 √ 办理退宿手续 党组织关系转出 团组织关系转出 就业派遣 注册校友信息、办理校友卡 领取毕业证 办理户口迁出 学生档案转寄 大学生医疗保险停保 校园卡注销 行李托运  </description>
+    </item>
+    
+    <item>
       <title>你好，世界</title>
-      <link>https://zwebzone.github.io/posts/211203_helloworld/</link>
+      <link>https://zwebzone.github.io/essay/211203_helloworld/</link>
       <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://zwebzone.github.io/posts/211203_helloworld/</guid>
+      <guid>https://zwebzone.github.io/essay/211203_helloworld/</guid>
       <description>H1 H2 H3 H4 H5 H6  code
   todo todo    I used to say&amp;hellip;
  I used to say&amp;hellip;

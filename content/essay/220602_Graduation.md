@@ -1,9 +1,9 @@
 ---
-title: "【毕业纪念】我只想要拉住流年，好好的说声再见"
+title: "我只想要拉住流年，好好的说声再见"
 date: 2022-06-02
-draft: True
+draft: False
 type: "post"
-tags: [life", "graduation"]
+tags: ["graduation"]
 showTableOfContents: True
 ---
 
@@ -11,7 +11,7 @@ showTableOfContents: True
 
 未完待续……
 
----
+{{< anetmusic 760239 >}}
 
 ## “玉树芝兰，一码平川”
 
@@ -32,3 +32,22 @@ showTableOfContents: True
 
 
 
+## “该换届了，你意向接替我的位置吗”
+
+
+
+## “安全、文明、有序离校”
+
+- 归还图书、教材
+- 结清学费、住宿费 √
+- 办理退宿手续
+- 党组织关系转出
+- 团组织关系转出
+- 就业派遣
+- 注册校友信息、办理校友卡
+- 领取毕业证
+- 办理户口迁出
+- 学生档案转寄
+- 大学生医疗保险停保
+- 校园卡注销
+- 行李托运

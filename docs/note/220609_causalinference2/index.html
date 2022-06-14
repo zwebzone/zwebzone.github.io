@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>【含英咀华】因果推理导论系列-2</title>
+    <meta name="description" content="就算世界太多美好　只一眨眼就变幻　可回忆始终璀璨">
+    <meta name="keywords" content='blog, zwebrain, note, causal inference'>
+
+    <meta property="og:url" content="https://zwebzone.github.io/note/220609_causalinference2/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="【含英咀华】因果推理导论系列-2">
+    <meta property="og:description" content="就算世界太多美好　只一眨眼就变幻　可回忆始终璀璨">
+    <meta property="og:image" content="/images/avatar.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="【含英咀华】因果推理导论系列-2">
+    <meta name="twitter:description" content="就算世界太多美好　只一眨眼就变幻　可回忆始终璀璨">
+    <meta property="twitter:domain" content="https://zwebzone.github.io/note/220609_causalinference2/">
+    <meta property="twitter:url" content="https://zwebzone.github.io/note/220609_causalinference2/">
+    <meta name="twitter:image" content="/images/avatar.jpg">
+
+    
+    <link rel="canonical" href="https://zwebzone.github.io/note/220609_causalinference2/" />
+
+    <link rel="stylesheet" type="text/css" href="https://zwebzone.github.io//css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://zwebzone.github.io//css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://zwebzone.github.io//css/dark.css">
+
+    <script src="https://zwebzone.github.io//js/svg-injector.min.js"></script>
+    <script src="https://zwebzone.github.io//js/feather-icons.min.js"></script>
+    <script src="https://zwebzone.github.io//js/main.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+    <script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a7e4b05d3f48c8f1563ea8d84d1b667a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://zwebzone.github.io/">
+                <img src="https://zwebzone.github.io//images/avatar.jpg" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://zwebzone.github.io/">zwebrain</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://zwebzone.github.io/essay/"> 随笔 </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://zwebzone.github.io/note/"> 笔记 </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://zwebzone.github.io/publications/"> 发表物 </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://zwebzone.github.io/tags/"> 标签 </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://zwebzone.github.io/lovely/"> 关于 </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://zwebzone.github.io/essay/"> 随笔 </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://zwebzone.github.io/note/"> 笔记 </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://zwebzone.github.io/publications/"> 发表物 </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://zwebzone.github.io/tags/"> 标签 </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://zwebzone.github.io/lovely/"> 关于 </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>【含英咀华】因果推理导论系列-2</h1>
+        <small role="doc-subtitle"></small>
+        <p class="post-date">
+            June 9, 2022
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="https://zwebzone.github.io/tags/note">note</a></li>
+        
+            <li class="post-tag"><a href="https://zwebzone.github.io/tags/causal-inference">causal inference</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <blockquote>
+<p>原书链接和课件：<a href="https://www.bradyneal.com/causal-inference-course">Introduction to Causal Inference from a Machine Learning Perspective</a></p>
+<p>本文介绍第二章《潜在结果》（Potential Outcomes）的内容</p>
+</blockquote>
+<blockquote>
+<p>第一章内容：<a href="../220607_causalinference1/">【含英咀华】因果推理导论系列-1</a></p>
+</blockquote>
+<h2 id="潜在结果和个体处理效果">潜在结果和个体处理效果</h2>
+<h3 id="两个场景">两个场景</h3>
+<blockquote>
+<p>你不开心了。</p>
+<p>场景一：你有一条狗后会变得开心，但是没有一条狗也会开心。</p>
+<p>场景二：你有一条狗后会变得开心，同时没有一条狗仍不开心。</p>
+</blockquote>
+<h3 id="符号定义">符号定义</h3>
+<blockquote>
+<p>T ：<strong>观察处理（Observed Treatment）</strong>，如 T = 1 代表获得狗狗，反之同理</p>
+<p>Y ：<strong>观察结果（Observed Outcome）</strong>，如 Y = 1 代表开心，反之同理</p>
+<p>Y<sub>i</sub>(0) ：个体 i 在无处理下的<strong>潜在结果（Potential Outcome）</strong></p>
+<p>Y<sub>i</sub>(1) ：个体 i 在有处理下的潜在结果</p>
+</blockquote>
+<p>有了以上定义，用有无处理下潜在结果的差值，我们还可以进一步定义对于任一个体的<strong>个体处理效果（Individual Treatment Effect，ITE）= Y<sub>i</sub>(1) - Y<sub>i</sub>(0)</strong>。考虑两类不同个体分别对应上述场景，我们可以得知：对于第一类个体，ITE = 0，有无狗狗对其开心没有因果效应，对于第二类个体，则ITE = 1，可以说明有无狗狗影响心情转变。</p>
+<h2 id="因果推理的基本问题">因果推理的基本问题</h2>
+<p>但是“要观察到某一特定个体的所有潜在结果是不可能的”！除非你有时间机器，否则对于个体，特定选择（处理）只有一次。这也正是<strong>因果推理的基本问题</strong>，对于一个个体，你根本无法同时计算所有的潜在结果（因果推理旨在做出因果论断，这取决于<strong>潜在结果</strong>，而非传统机器学习中的<strong>观察结果</strong>）。</p>
+<p>因此，引出了下一个重要定义——<strong>反事实（Counterfactual）</strong>，即没有（也不能）观察到的潜在结果被称为反事实，因为其与<strong>事实</strong>相反。但注意，在所谓事实或反事实还没有真正被观察到时，它们都只是<strong>潜在</strong>结果。</p>
+<h2 id="跳脱基本问题">跳脱基本问题</h2>
+<h3 id="平均处理效果">平均处理效果</h3>
+<p>如果我们可以从一个纯粹的统计量（例如E[Y|t]）中计算出一个因果量（例如E[Y(t)]），那么这个过程被称为<strong>识别（Identifiability）</strong>。既然ITE无法求解，我们能获取哪些统计量去解释呢，找个<strong>平均处理效果（Average Treatment Effect，ATE）</strong>？那先看看可以获得什么数据吧，如表：</p>
+<p><img src="/images/220609_CausalInference2/image-20220610030311516.png" alt="image-20220610030311516"></p>
+<p>为了求解E[Y(1) - Y(0)]，可以直接E[Y(1)] - E[Y(0)] = E[Y|T=1] - E[Y|T=0]嘛？很不幸，这样因果关系就会变成关联关系了，就和统计学习方法的操作完全一致了。</p>
+<h3 id="可忽略性和可互换性">可忽略性和可互换性</h3>
+<p>正难则反，那么考虑有什么假设（在什么条件下）可以使得ATE退化成关联差异呢？书中提到了两种理解方式：</p>
+<h4 id="可忽略性">可忽略性</h4>
+<p>在之前的案例中，我们可以发现有一个混杂因子或是说协变量X的影响：</p>
+<p><img src="/images/220609_CausalInference2/image-20220610104200152.png" alt="image-20220610104200152"></p>
+<p>通过<strong>随机对照试验（Randomized control trial，RCT）</strong>，我们可以去掉X-&gt;T的路径，即对于不同处理措施的样本，其协变量X是完全随机的，那么因果结构可以变成如下：</p>
+<p><img src="/images/220609_CausalInference2/image-20220610104108962.png" alt="image-20220610104108962"></p>
+<p>这样就有下式成立：
+$$
+\mathbb{E}[Y(1)]-\mathbb{E}[Y(0)] =\mathbb{E}[Y(1) | T=1]-\mathbb{E}[Y(0) | T=0]=\mathbb{E}[Y | T=1]-\mathbb{E}[Y | T=0]
+$$</p>
+<h4 id="可互换性">可互换性</h4>
+<p>可互换性是指对于不同处理措施，如果将它们进行互换，其观察到的结果不会发生变化，形式上说就是：
+$$
+\mathbb{E}[Y(1) | T=0]=\mathbb{E}[Y(1) | T=1]
+$$</p>
+<p>$$
+\mathbb{E}[Y(0) | T=0]=\mathbb{E}[Y(0) | T=1]​
+$$</p>
+<p>因此易知，E[Y(i)] = E[Y(i)|T=t]，同理：
+$$
+\mathbb{E}[Y(1)]-\mathbb{E}[Y(0)] =\mathbb{E}[Y(1) | T=1]-\mathbb{E}[Y(0) | T=0]=\mathbb{E}[Y | T=1]-\mathbb{E}[Y | T=0]
+$$</p>
+<h3 id="四个基本假设重要">四个基本假设（重要）</h3>
+<h4 id="1-条件可互换性">1. 条件可互换性</h4>
+<p>之前提到可互换性或是可忽略性，但是在真实的情况下，是很难达到的，即不能确保观察的数据的所有协变量都是随机的，在处理措施T改变后，观察到的结果Y一般也不相同。然而，如果我们可以通过将一些变量作为条件来控制相关变量，那么处理后的数据可能是可互换的，具体这个假设可以这么描述：</p>
+<p><img src="/images/220609_CausalInference2/image-20220610024611079.png" alt="image-20220610024611079"></p>
+<p>这一假设是因果推理的主要假设，除了之前的命名，其也称为<strong>无混杂（Unconfoundedness）</strong>？在条件下，即我们在固定了X后，便可以继续利用上文的结论了 ，进行后续推导证明了。或许下面的这个图可以看得更懂一些？这样可以很好地求解E[Y(t)]，也就是上述的识别过程。</p>
+<p><img src="/images/220609_CausalInference2/image-20220612204244198.png" alt="image-20220612204244198"></p>
+<p>然而，我们常常不知道条件可互换性是否成立。因为可能会有一些<strong>未被注意的混杂因子但没有被囊括到X中，这也</strong>就是说该假设是不可验证的，所以这就使我们需要在观察数据时要更加小心注意，尽可能多得将变量们归入X中，避免仍存在混杂因子。</p>
+<h4 id="2-条件处理正性">2. 条件处理正性</h4>
+<p>这个假设要求对于任意协变量X=x，都存在两种处理措施T=0和T=1的可能，如果没有这个保证，那么在计算时就不能满足计算ATE，具体表述为：</p>
+<p><img src="/images/220609_CausalInference2/image-20220610024649916.png" alt="image-20220610024649916"></p>
+<p>除了保证计算可行性，该假设还可以用**重叠（Overlap）**的方式解释，即以下两个分布不能没有重叠，也不能完全重叠。</p>
+<p><img src="/images/220609_CausalInference2/image-20220612201500699.png" alt="image-20220612201500699"></p>
+<p>在实际过程中，如果违反了这一假设，还可以通过**外推（Extrapolation）**的方式进行调整，如图：</p>
+<p><img src="/images/220609_CausalInference2/image-20220612201716134.png" alt="image-20220612201716134"></p>
+<p>在不存在f<sub>1</sub>(x)和f<sub>2</sub>(x)的区域，可以通过拟合的方式得到一个数值，进而满足后续计算。</p>
+<h4 id="3-个体间无干扰">3. 个体间无干扰</h4>
+<p>这个假设比较简单，就是个体间的的处理措施独立，不受他人干扰，表述为：</p>
+<p><img src="/images/220609_CausalInference2/image-20220610024714968.png" alt="image-20220610024714968"></p>
+<h4 id="4-处理结果一致">4. 处理结果一致</h4>
+<p>这个假设也很简单，就是保证了对于一个处理措施，个体的潜在结果和观察到的结果是恒一致的，表述为：</p>
+<p><img src="/images/220609_CausalInference2/image-20220610024733931.png" alt="image-20220610024733931"></p>
+<p>看似这个假设显然正确，但是实际上，这可能取决于处理措施T的颗粒度。对于上述狗狗问题，不同品种的狗狗对心情的影响可能是不同的&hellip;这个假设就可以规避这种情况，确保每个处理措施T只有一个类型只对应一种作用。</p>
+<h3 id="调整公式">调整公式</h3>
+<p>利用上述四个假设，原公式可以进行调整。首先利用期望迭代法则和期望的线性得到：
+$$
+\mathbb{E}[Y(1)-Y(0)]= \mathbb{E}_{X}[\mathbb{E}[Y(1)|X] - \mathbb{E}[Y(0)|X]]
+$$</p>
+<p>再根据条件可互换性：
+$$
+RHS = \mathbb{E}_{X}[\mathbb{E}[Y(1)|T=1, X]-\mathbb{E}[Y(0)|T=0, X]]
+$$</p>
+<p>再根据处理结果一致：
+$$
+RHS = \mathbb{E}_{X}[\mathbb{E}[Y|T=1, X]-\mathbb{E}[Y|T=0, X]]
+$$</p>
+<p>最终得到调整后的公式：</p>
+<p><img src="/images/220609_CausalInference2/image-20220610031209053.png" alt="image-20220610031209053"></p>
+<p>这个公式赋予了ATE的<strong>可识别性（Identifiability）</strong>，下面就用一个完整的例子解释以上全部内容的实用性。</p>
+<h2 id="一个完整的例子">一个完整的例子</h2>
+<h3 id="辨别估计流程图">辨别—估计流程图</h3>
+<blockquote>
+<p>先解释一些术语</p>
+<p>被估计的量（Estimand）：任何我们想要估计的量，分为因果被估量和统计被估量。</p>
+<p>估计值（Estimate）：利用数据对某些估计的量得到的近似值</p>
+<p>估计（Estimation）：指估计过程</p>
+</blockquote>
+<p><img src="/images/220609_CausalInference2/image-20220612115754135.png" alt="image-20220612115754135"></p>
+<h3 id="不同治疗措施对患者死亡率的影响">不同治疗措施对患者死亡率的影响</h3>
+<blockquote>
+<p>结果Y：患者死亡率</p>
+<p>处理措施T：A和B</p>
+<p>协变量X：患者症状，轻症or重症</p>
+</blockquote>
+<p>我们已经了解X是一个可能的混杂因子了，那么我们用调整后的公式计算E[Y(1) - Y(0)]：
+$$
+E[Y(1)-Y(0)] = E_X[E[Y|T=1,X]- E[Y|T=0,X]]
+$$</p>
+<p>$$
+E[Y(1)] = E_X[E[Y|T=1,X]] = \sum_xE[Y|T=1,x]P(x) = 0.194
+$$</p>
+<p>$$
+E[Y(0)] = E_X[E[Y|T=0,X]] = \sum_xE[Y|T=0,x]P(x) = 0.129
+$$</p>
+<p><img src="/images/220609_CausalInference2/image-20220612204923879.png" alt="image-20220612204923879"></p>
+<p>如图，结果就是这样，在这种情况下，根据因果推理得到的结果，治疗方案B是更好的。本节也是一个因果推理的很入门的章节，后面的章节将介绍更复杂更真实的情况。</p>
+
+        </p>
+    </div>
+</div>
+
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#潜在结果和个体处理效果">潜在结果和个体处理效果</a>
+          <ul>
+            <li><a href="#两个场景">两个场景</a></li>
+            <li><a href="#符号定义">符号定义</a></li>
+          </ul>
+        </li>
+        <li><a href="#因果推理的基本问题">因果推理的基本问题</a></li>
+        <li><a href="#跳脱基本问题">跳脱基本问题</a>
+          <ul>
+            <li><a href="#平均处理效果">平均处理效果</a></li>
+            <li><a href="#可忽略性和可互换性">可忽略性和可互换性</a>
+              <ul>
+                <li><a href="#可忽略性">可忽略性</a></li>
+                <li><a href="#可互换性">可互换性</a></li>
+              </ul>
+            </li>
+            <li><a href="#四个基本假设重要">四个基本假设（重要）</a>
+              <ul>
+                <li><a href="#1-条件可互换性">1. 条件可互换性</a></li>
+                <li><a href="#2-条件处理正性">2. 条件处理正性</a></li>
+                <li><a href="#3-个体间无干扰">3. 个体间无干扰</a></li>
+                <li><a href="#4-处理结果一致">4. 处理结果一致</a></li>
+              </ul>
+            </li>
+            <li><a href="#调整公式">调整公式</a></li>
+          </ul>
+        </li>
+        <li><a href="#一个完整的例子">一个完整的例子</a>
+          <ul>
+            <li><a href="#辨别估计流程图">辨别—估计流程图</a></li>
+            <li><a href="#不同治疗措施对患者死亡率的影响">不同治疗措施对患者死亡率的影响</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </nav>
+</aside>
+
+
+
+    
+
+        </main><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+<footer class="footer">
+    <span>&copy; 2022 zwebrain</span>
+    <span> <a id="busuanzi_value_site_pv"></a> Views | <a id="busuanzi_value_site_uv"></a> Visitors</span>
+    <span> Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a></span>
+</footer>
+</body>
+</html>
