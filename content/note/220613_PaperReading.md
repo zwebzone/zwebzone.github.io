@@ -3,7 +3,7 @@ title: "【赏奇析疑】Adversarial Domain Adaptation with Domain Mixup"
 date: 2022-06-13
 draft: True
 type: "post"
-tags: ["note", "transfer learning", "machine learning"]
+tags: ["笔记", "机器学习", "迁移学习"]
 showTableOfContents: True
 ---
 

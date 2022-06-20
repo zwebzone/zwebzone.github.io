@@ -3,7 +3,7 @@ title: "【含英咀华】因果推理导论系列-1"
 date: 2022-06-07
 draft: False
 type: "post"
-tags: ["note", "causal inference"]
+tags: ["笔记", "因果推理"]
 showTableOfContents: True
 ---
 

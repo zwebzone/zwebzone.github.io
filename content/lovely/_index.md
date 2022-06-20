@@ -3,70 +3,76 @@ title: "庄湛 @zwebrain"
 type: page
 ---
 
-| [Email]                           | [QQ]       | [WeChat]     | [Birthday]   |
+| [邮箱]                            | [QQ]       | [微信]       | [生日]       |
 | :-------------------------------- | ---------- | ------------ | ------------ |
 | 11811721 [at] mail.sustech.edu.cn | 1173105448 | meta-learner | 05.16, 11.20 |
 
+> 英文链接（in English）：[Link](./en)
 
+## 😃 自我简介
 
-## 😃 Brief Biography
-
-I am Zhan Zhuang, currently BEng at the Department of Computer Science and Engineering of [SUSTech](https://www.sustech.edu.cn/), supervised by Professor [Xuan Song](https://faculty.sustech.edu.cn/songx/). I am going to study for my doctorate in the collaborative program of SUSTech and City University of Hong Kong under the dual supervision of [Yu Zhang](https://yuzhanghk.github.io/) and [Ying Wei](https://wei-ying.net/). My research interests are mainly in Transfer Learning, Meta-learning and Continual Learning.
-
----
-
-## 🆕 News
-
-- Graduation is coming...
-
-## 🏆 Honors
-
-- Outstanding Graduate Award, SUSTech, 2022
-- Highest Honors in Computer Science and Engineering, SUSTech, 2022
-- Top 10 Graduate Award at Shude College, SUSTech, 2022
-- First Prize, Annual Outstanding Student Scholarship, SUSTech, 2021
-- First Prize (5th), ASC20-21 Student Supercomputer Challenge, 2021
-- Honorable Mention, Interdisciplinary Contest In Modeling (ICM), 2021
-- Fifth Place, 3rd NVIDIA Sky Hackathon, 2020
-- Third Place, APAC HPC-AI Competition, 2020
-- Second Prize, Annual Outstanding Student Scholarship, SUSTech, 2020
-- First Prize, MathorCup University Mathematical Modeling Challenge, 2020
-- Excellent Student Cadre, SUSTech, 2020
-- Advanced Volunteer for Emergency Aid, SUSTech, 2019
-- First Prize, Annual Outstanding Student Scholarship, SUSTech, 2019
-- Excellent League Member, SUSTech, 2019
-- Third Prize, Scholarships for Outstanding Freshmen, 2018
-- Excellent Student Cadre, Shijiazhuang No.2 Middle School, 2015, 2016, 2017
+你好呀，我是庄湛，本科就读于[南方科技大学](https://www.sustech.edu.cn/)，专业为计算机科学与技术，导师是[宋轩副教授](https://faculty.sustech.edu.cn/songx/)。我即将在南方科技大学和香港城市大学的联合培养下攻读博士学位，我的两位导师为南科大的[张宇副教授](https://yuzhanghk.github.io/)和港城大的[魏颖助理教授](https://wei-ying.net/)。我的研究兴趣主要是迁移学习、元学习和持续学习，欢迎和我一起讨论，一起学习！
 
 ---
 
-## 👨‍💻 Experiences
+## 🆕 最新消息
 
-- 2021 Jun-Aug, **Intern**, Client Engineer, Intelligent Mobility Department, CSIG, Tencent
-- 2020 Jun-Aug, **Intern**, Android Development Engineer, Moon Environment Technology Co., Ltd.
-- 2019 Jun-Aug, **Training**, International EPIC Project, Wentworth Institute of Technology
+- 即将毕业，想读博前旅个游...
+
+## 🏆 所获荣誉
+
+> 2022
+
+- 南方科技大学校级优秀毕业生
+- 计算机科学与工程系优秀毕业生
+- 树德书院十佳毕业生
+
+> 2021
+
+- 优秀学生奖学金一等奖
+- ASC20-21世界大学生超级计算机竞赛团体一等奖（第五名）
+- 美国大学生数学建模竞赛国际二等奖（H奖）
+
+> 2020
+
+- 英伟达第三届“Sky Hackathon”第五名
+- 亚太区高性能计算和人工智能竞赛团体季军
+- 优秀学生奖学金二等奖
+- MathorCup高校数学建模挑战赛一等奖
+- 校级优秀学生干部
+
+> 2019
+
+- 校义工联急救应援守护奖
+- 优秀学生奖学金一等奖
+- 校级优秀共青团员
+
+> 本科以前
+
+- 新生奖学金三等奖，2018
+- 优秀学生干部，2015、2016、2017
 
 ---
 
-## 🥳 Extracurricular Activities
+## 🥳 课外活动
 
-- Member, Staff Student Committee, Department of Computer Science and Engineering, SUSTech (计系树德书院班长)
-- Member, SUSTech Supercomputing Team
-- Member, Shude Peer Mentors (树德书院学长团)
-- Member, Teaching Department, Emergency Rescue Association, SUSTech
-- Vice Captain, Shude Men's Football Team
-- Course Director, Shude STEAM+ Maker Volunteer Teachers
-- Officer, Innovation and Entrepreneurship Department, General Branch Committee of the Communist Youth League, Shude College
-- Commissary in Charge of Studies, Class 1817, SUSTech 
-- Commissary in Charge of Studies, Class 1510, Shijiazhuang No.2 Middle School
+- 树德书院弘毅党支部第二党小组组长
+- 南科大计系树德书院班长
+- 南科大学生超算队队员
+- 树德书院学长团成员，1918班大学长
+- 校应急救援队队员，授课部部员
+- 树德男子足球队副队长，门将
+- 树德STEAM+创客志愿教师
+- 树德书院团总支创新创业部部员
+- 南方科技大学1817班团支部学习委员
+- 石家庄二中实验学校1510班学习委员
 
 ---
 
-## 💗 Favorite
+## 💗 我的最爱
 
-- The [homepage](https://nyh-dolphin.github.io/) of my beloved.
+- 小小的大肥的[主页](https://nyh-dolphin.github.io/)
 
-- The [animations](../pursuit/bangumi/) and [music](../pursuit/music/) that I recommend.
+- 喜欢的[番剧](https://zweb.zone/pursuit/bangumi/)和[音乐](https://zweb.zone/pursuit/music/)
 
-   
 

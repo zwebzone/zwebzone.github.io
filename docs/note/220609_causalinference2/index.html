@@ -19,7 +19,7 @@
     
     <title>【含英咀华】因果推理导论系列-2</title>
     <meta name="description" content="就算世界太多美好　只一眨眼就变幻　可回忆始终璀璨">
-    <meta name="keywords" content='blog, zwebrain, note, causal inference'>
+    <meta name="keywords" content='blog, zwebrain, 笔记, 因果推理'>
 
     <meta property="og:url" content="https://zwebzone.github.io/note/220609_causalinference2/">
     <meta property="og:type" content="website">
@@ -169,9 +169,9 @@ var _hmt = _hmt || [];
 
         <ul class="post-tags">
         
-            <li class="post-tag"><a href="https://zwebzone.github.io/tags/note">note</a></li>
+            <li class="post-tag"><a href="https://zwebzone.github.io/tags/%E7%AC%94%E8%AE%B0">笔记</a></li>
         
-            <li class="post-tag"><a href="https://zwebzone.github.io/tags/causal-inference">causal inference</a></li>
+            <li class="post-tag"><a href="https://zwebzone.github.io/tags/%E5%9B%A0%E6%9E%9C%E6%8E%A8%E7%90%86">因果推理</a></li>
         
         </ul>
     </div>
@@ -207,13 +207,13 @@ var _hmt = _hmt || [];
 <h3 id="平均处理效果">平均处理效果</h3>
 <p>如果我们可以从一个纯粹的统计量（例如E[Y|t]）中计算出一个因果量（例如E[Y(t)]），那么这个过程被称为<strong>识别（Identifiability）</strong>。既然ITE无法求解，我们能获取哪些统计量去解释呢，找个<strong>平均处理效果（Average Treatment Effect，ATE）</strong>？那先看看可以获得什么数据吧，如表：</p>
 <p><img src="/images/220609_CausalInference2/image-20220610030311516.png" alt="image-20220610030311516"></p>
-<p>为了求解E[Y(1) - Y(0)]，可以直接E[Y(1)] - E[Y(0)] = E[Y|T=1] - E[Y|T=0]嘛？很不幸，这样因果关系就会变成关联关系了，就和统计学习方法的操作完全一致了。</p>
+<p>为了求解E[Y(1) - Y(0)]，可以直接E[Y(1)] - E[Y(0)] = E[Y|T=1] - E[Y|T=0]嘛？很不幸，这样因果关系就会变成<strong>关联关系</strong>了，就和统计学习方法的操作完全一致了。</p>
 <h3 id="可忽略性和可互换性">可忽略性和可互换性</h3>
 <p>正难则反，那么考虑有什么假设（在什么条件下）可以使得ATE退化成关联差异呢？书中提到了两种理解方式：</p>
 <h4 id="可忽略性">可忽略性</h4>
 <p>在之前的案例中，我们可以发现有一个混杂因子或是说协变量X的影响：</p>
 <p><img src="/images/220609_CausalInference2/image-20220610104200152.png" alt="image-20220610104200152"></p>
-<p>通过<strong>随机对照试验（Randomized control trial，RCT）</strong>，我们可以去掉X-&gt;T的路径，即对于不同处理措施的样本，其协变量X是完全随机的，那么因果结构可以变成如下：</p>
+<p>通过<strong>随机对照试验（Randomized control trial，RCT）</strong>，我们可以去掉X-&gt;T的路径，即对于不同处理措施的样本，其协变量X是完全随机的，或是说，对于任一个体，其都是随机选择T，不受其他因素干扰，那么因果结构可以变成如下：</p>
 <p><img src="/images/220609_CausalInference2/image-20220610104108962.png" alt="image-20220610104108962"></p>
 <p>这样就有下式成立：
 $$
@@ -241,7 +241,7 @@ $$</p>
 <h4 id="2-条件处理正性">2. 条件处理正性</h4>
 <p>这个假设要求对于任意协变量X=x，都存在两种处理措施T=0和T=1的可能，如果没有这个保证，那么在计算时就不能满足计算ATE，具体表述为：</p>
 <p><img src="/images/220609_CausalInference2/image-20220610024649916.png" alt="image-20220610024649916"></p>
-<p>除了保证计算可行性，该假设还可以用**重叠（Overlap）**的方式解释，即以下两个分布不能没有重叠，也不能完全重叠。</p>
+<p>除了保证计算可行性，该假设还可以用**重叠（Overlap）**的方式解释，即以下两个分布不能没有重叠。</p>
 <p><img src="/images/220609_CausalInference2/image-20220612201500699.png" alt="image-20220612201500699"></p>
 <p>在实际过程中，如果违反了这一假设，还可以通过**外推（Extrapolation）**的方式进行调整，如图：</p>
 <p><img src="/images/220609_CausalInference2/image-20220612201716134.png" alt="image-20220612201716134"></p>

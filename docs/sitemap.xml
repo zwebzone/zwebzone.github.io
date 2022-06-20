@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://zwebzone.github.io/tags/love/</loc>
-    <lastmod>2022-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zwebzone.github.io/tags/</loc>
     <lastmod>2022-06-11T00:00:00+00:00</lastmod>
   </url>
@@ -28,13 +23,8 @@
   </url>
   
   <url>
-    <loc>https://zwebzone.github.io/tags/causal-inference/</loc>
-    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zwebzone.github.io/tags/note/</loc>
-    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+    <loc>https://zwebzone.github.io/tags/%E6%81%8B%E7%88%B1/</loc>
+    <lastmod>2022-06-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -48,17 +38,27 @@
   </url>
   
   <url>
+    <loc>https://zwebzone.github.io/tags/%E5%9B%A0%E6%9E%9C%E6%8E%A8%E7%90%86/</loc>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zwebzone.github.io/note/220607_causalinference1/</loc>
     <lastmod>2022-06-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zwebzone.github.io/tags/blog/</loc>
+    <loc>https://zwebzone.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zwebzone.github.io/tags/plan/</loc>
+    <loc>https://zwebzone.github.io/tags/%E8%AE%A1%E5%88%92/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,18 +73,13 @@
   </url>
   
   <url>
-    <loc>https://zwebzone.github.io/tags/graduation/</loc>
-    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zwebzone.github.io/essay/220602_graduation/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zwebzone.github.io/tags/test/</loc>
-    <lastmod>2021-12-03T00:00:00+00:00</lastmod>
+    <loc>https://zwebzone.github.io/tags/%E6%AF%95%E4%B8%9A/</loc>
+    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -106,6 +101,10 @@
   
   <url>
     <loc>https://zwebzone.github.io/lovely/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zwebzone.github.io/lovely/en/</loc>
   </url>
   
   <url>

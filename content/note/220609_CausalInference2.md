@@ -3,7 +3,7 @@ title: "【含英咀华】因果推理导论系列-2"
 date: 2022-06-09
 draft: False
 type: "post"
-tags: ["note", "causal inference"]
+tags: ["笔记", "因果推理"]
 showTableOfContents: True
 ---
 
@@ -53,7 +53,7 @@ showTableOfContents: True
 
 ![image-20220610030311516](/images/220609_CausalInference2/image-20220610030311516.png)
 
-为了求解E[Y(1) - Y(0)]，可以直接E[Y(1)] - E[Y(0)] = E[Y|T=1] - E[Y|T=0]嘛？很不幸，这样因果关系就会变成关联关系了，就和统计学习方法的操作完全一致了。
+为了求解E[Y(1) - Y(0)]，可以直接E[Y(1)] - E[Y(0)] = E[Y|T=1] - E[Y|T=0]嘛？很不幸，这样因果关系就会变成**关联关系**了，就和统计学习方法的操作完全一致了。
 
 
 
@@ -67,7 +67,7 @@ showTableOfContents: True
 
 ![image-20220610104200152](/images/220609_CausalInference2/image-20220610104200152.png)
 
-通过**随机对照试验（Randomized control trial，RCT）**，我们可以去掉X->T的路径，即对于不同处理措施的样本，其协变量X是完全随机的，那么因果结构可以变成如下：
+通过**随机对照试验（Randomized control trial，RCT）**，我们可以去掉X->T的路径，即对于不同处理措施的样本，其协变量X是完全随机的，或是说，对于任一个体，其都是随机选择T，不受其他因素干扰，那么因果结构可以变成如下：
 
 ![image-20220610104108962](/images/220609_CausalInference2/image-20220610104108962.png)
 
@@ -116,7 +116,7 @@ $$
 
 ![image-20220610024649916](/images/220609_CausalInference2/image-20220610024649916.png)
 
-除了保证计算可行性，该假设还可以用**重叠（Overlap）**的方式解释，即以下两个分布不能没有重叠，也不能完全重叠。
+除了保证计算可行性，该假设还可以用**重叠（Overlap）**的方式解释，即以下两个分布不能没有重叠。
 
 ![image-20220612201500699](/images/220609_CausalInference2/image-20220612201500699.png)
 

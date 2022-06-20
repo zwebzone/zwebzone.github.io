@@ -3,7 +3,7 @@ title: "我只想要拉住流年，好好的说声再见"
 date: 2022-06-02
 draft: False
 type: "post"
-tags: ["graduation"]
+tags: ["毕业"]
 showTableOfContents: True
 ---
 

@@ -3,7 +3,7 @@ title: "你好，世界"
 date: 2021-12-03
 draft: False
 type: "post"
-tags: ["blog", "test"]
+tags: ["博客"]
 showTableOfContents: false
 ---
 
