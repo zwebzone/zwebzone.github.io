@@ -2,16 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zwebzone.github.io/categories/</loc>
+    <loc>https://zweb.zone/categories/</loc>
   </url><url>
-    <loc>https://zwebzone.github.io/publications/</loc>
+    <loc>https://zweb.zone/publications/</loc>
   </url><url>
-    <loc>https://zwebzone.github.io/tags/</loc>
+    <loc>https://zweb.zone/tags/</loc>
   </url><url>
-    <loc>https://zwebzone.github.io/</loc>
+    <loc>https://zweb.zone/</loc>
   </url><url>
-    <loc>https://zwebzone.github.io/about/</loc>
+    <loc>https://zweb.zone/about/</loc>
   </url><url>
-    <loc>https://zwebzone.github.io/about/en/</loc>
+    <loc>https://zweb.zone/about/en/</loc>
+  </url><url>
+    <loc>https://zweb.zone/about/more/</loc>
   </url>
 </urlset>

@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>庄湛 @ Zhan ZHUANG on zwebrain</title>
-    <link>https://zwebzone.github.io/about/</link>
+    <link>https://zweb.zone/about/</link>
     <description>Recent content in 庄湛 @ Zhan ZHUANG on zwebrain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="https://zwebzone.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zweb.zone/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>庄湛 @ Zhan ZHUANG</title>
-      <link>https://zwebzone.github.io/about/en/</link>
+      <link>https://zweb.zone/about/en/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://zwebzone.github.io/about/en/</guid>
+      <guid>https://zweb.zone/about/en/</guid>
       <description>[Email] [QQ] [WeChat] [Bilibili] 12250063 [at] mail.sustech.edu.cn 1173105448 zwebrain 8519667 😃 Brief Biography I am Zhan Zhuang, and I receive a bachelor&amp;rsquo;s degree in computer science and technology from SUSTech in 2022, supervised by Professor Xuan Song. Currently, I am studying for my doctorate in the collaborative program of SUSTech and City University of Hong Kong under the dual supervision of Yu Zhang and Ying Wei. My research interests are mainly in Deep Generative Models, Gradient Flow, Transfer Learning, and Meta-learning.</description>
+    </item>
+    <item>
+      <title>庄湛 @ Zhan ZHUANG</title>
+      <link>https://zweb.zone/about/more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://zweb.zone/about/more/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
