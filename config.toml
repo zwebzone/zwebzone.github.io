@@ -123,10 +123,10 @@ var _hmt = _hmt || [];
 
   socialIcons = [
     {name = "github", url = "https://github.com/zwebzone"},
+    {name = "outlook", url = "mailto:11811721@mail.sustech.edu.cn"},
     {name = "bilibili", url = "https://space.bilibili.com/8519667"},
-    # {name = "outlook", url = "mailto:11811721@mail.sustech.edu.cn"},
     {name = "neteasecloudmusic", url="https://y.music.163.com/m/user?id=96064525"},
-    {name = "steam", url="https://steamcommunity.com/id/zwebrain"},
+    # {name = "steam", url="https://steamcommunity.com/id/zwebrain"},
     {name = "youtube", url = "https://www.youtube.com/channel/UCSCddBiG0wKSliowiaUaOGg"},
   ]
 

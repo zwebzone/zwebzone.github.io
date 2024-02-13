@@ -3,9 +3,9 @@ title: "庄湛 @ Zhan ZHUANG"
 type: page
 ---
 
-| [Email]                           | [QQ]       | [WeChat]     | [Bilibili]   |
+|                            | [QQ]       | [WeChat]     | [Email]   |
 | :-------------------------------- | ---------- | ------------ | ------------ |
-| 12250063 [at] mail.sustech.edu.cn | 1173105448 | zwebrain | 8519667 |
+| Contact me | 1173105448 | zwebrain | 12250063 [at] mail.sustech.edu.cn |
 
 
 
@@ -45,20 +45,6 @@ I am Zhan Zhuang, and I receive a bachelor's degree in computer science and tech
 - 2021 Jun-Aug, **Intern**, Client Engineer, Intelligent Mobility Department, CSIG, Tencent
 - 2020 Jun-Aug, **Intern**, Android Development Engineer, Moon Environment Technology Co., Ltd.
 - 2019 Jun-Aug, **Training**, International EPIC Project, Wentworth Institute of Technology
-
----
-
-## 🥳 Extracurricular Activities
-
-- Member, Staff Student Committee, Department of Computer Science and Engineering, SUSTech
-- Member, SUSTech Supercomputing Team
-- Member, Shude Peer Mentors
-- Member, Teaching Department, Emergency Rescue Association, SUSTech
-- Vice Captain, Shude Men's Football Team
-- Course Director, Shude STEAM+ Maker Volunteer Teachers
-- Officer, Innovation and Entrepreneurship Department, General Branch Committee of the Communist Youth League, Shude College
-- Commissary in Charge of Studies, Class 1817, SUSTech
-- Commissary in Charge of Studies, Class 1510, Shijiazhuang No.2 Middle School
 
 ---
 

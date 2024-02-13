@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "发表物"
 type: page
 ---
 
