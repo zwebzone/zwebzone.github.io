@@ -1,0 +1,41 @@
+<div class="profile-container">
+    <div class="profile-content">
+      <div class="profile-text">
+        <h3>{{ .name }}</h3>
+        <p>{{ .bio1 | safeHTML}}</p>
+        <p>{{ .bio2 | safeHTML}}</p>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    .profile-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    
+    .profile-photo img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+    
+    .profile-text h3 {
+      font-family: 'Calibri', Calibri;
+      margin: 0;
+      font-size: 2.5em;
+    }
+    
+    .profile-text p {
+      font-family: 'Calibri', Calibri;
+
+      margin: 15px 0;
+      font-size: 1.5em;
+    }
+    
+  </style>
+  

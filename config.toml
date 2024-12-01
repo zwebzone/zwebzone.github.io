@@ -26,66 +26,51 @@ enableEmoji = true
 [menu]
   
 
-  [[menu.main]]
-    # Unique identifer for a menu item
-    identifier = "essay"
-
-    url = "/essay/"
-    
+#  [[menu.main]]
+#    # Unique identifer for a menu item
+#    identifier = "blog"
+#    url = "/blog/"   
     # You can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-
+#    pre = ""
     # You can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-
+#    post = ""
     # Display name
-    name = "随笔"
-
+#    name = "Blog"
     # Weights are used to determine the ordering
-    weight = 1
+#    weight = 3
 
   [[menu.main]]
-    # Unique identifer for a menu item
-    identifier = "note"
-
-    url = "/note/"
-    
-    # You can add extra information before the name (HTML format is supported), such as icons
+    identifier = "blog"
+    url = "/blog/"
     pre = ""
-
-    # You can add extra information after the name (HTML format is supported), such as icons
     post = ""
-
-    # Display name
-    name = "笔记"
-
-    # Weights are used to determine the ordering
-    weight = 2
-
-  [[menu.main]]
-    identifier = "publications"
-    name = "发表物"
-    url = "/publications/"
+    name = "Blog"
     weight = 3
 
   [[menu.main]]
-    identifier = "tags"
-    name = "标签"
-    url = "/tags/"
-    weight = 4
-    # pre = "<span data-feather='tag'></span>"
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 2
+
+#  [[menu.main]]
+#    identifier = "tags"
+#    name = "Tags"
+#    url = "/tags/"
+#    weight = 4
+#    # pre = "<span data-feather='tag'></span>"
 
   [[menu.main]]
-    identifier = "about"
-    name = "关于"
-    url = "/about/"
-    weight = 5
+    identifier = "home"
+    name = "Home"
+    url = "/home/"
+    weight = 1
     # pre = "<span data-feather='smile'></span>"
 
 
 [params]
   # URL for the avatar on homepage
-  avatarURL = "/images/avatar.jpg"
+  avatarURL = "/images/red.jpg"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
   avatarSize = "size-l"
@@ -123,11 +108,11 @@ var _hmt = _hmt || [];
 
   socialIcons = [
     {name = "github", url = "https://github.com/zwebzone"},
-    {name = "outlook", url = "mailto:11811721@mail.sustech.edu.cn"},
-    {name = "bilibili", url = "https://space.bilibili.com/8519667"},
-    {name = "neteasecloudmusic", url="https://y.music.163.com/m/user?id=96064525"},
+    {name = "outlook", url = "mailto:12250063@mail.sustech.edu.cn"},
+    # {name = "bilibili", url = "https://space.bilibili.com/8519667"},
+    # {name = "neteasecloudmusic", url="https://y.music.163.com/m/user?id=96064525"},
     # {name = "steam", url="https://steamcommunity.com/id/zwebrain"},
-    {name = "youtube", url = "https://www.youtube.com/channel/UCSCddBiG0wKSliowiaUaOGg"},
+    # {name = "youtube", url = "https://www.youtube.com/channel/UCSCddBiG0wKSliowiaUaOGg"},
   ]
 
   metaKeywords = ["blog", "zwebrain"]

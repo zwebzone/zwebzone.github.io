@@ -1,47 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>zwebrain</title>
-    <link>https://zweb.zone/</link>
-    <description>Recent content on zwebrain</description>
+    <title>Zhan ZHUANG (庄湛) on zwebrain</title>
+    <link>https://zweb.zone/home/</link>
+    <description>Recent content in Zhan ZHUANG (庄湛) on zwebrain</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://zweb.zone/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>兴趣 | 关于动漫</title>
-      <link>https://zweb.zone/home/cn/more/anime/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zweb.zone/home/cn/more/anime/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>兴趣 | 关于游戏</title>
-      <link>https://zweb.zone/home/cn/more/game/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zweb.zone/home/cn/more/game/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>兴趣 | 关于运动</title>
-      <link>https://zweb.zone/home/cn/more/sport/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zweb.zone/home/cn/more/sport/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>兴趣 | 关于音乐</title>
-      <link>https://zweb.zone/home/cn/more/music/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zweb.zone/home/cn/more/music/</guid>
-      <description></description>
-    </item>
-    
+    <language>en</language><atom:link href="https://zweb.zone/home/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>庄湛 @ zwebrain</title>
       <link>https://zweb.zone/home/cn/</link>

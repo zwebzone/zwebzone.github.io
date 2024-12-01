@@ -1,0 +1,37 @@
+<div class="news-container">
+    <div class="news-items">
+      {{ range .news }}
+      <div class="news-item">
+        <p class="news-description">{{ .date | safeHTML }} {{ .title }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  
+  <style>
+    .news-container {
+      max-height: 200px;
+      overflow-y: auto;
+      padding: 10px 0;
+    }
+  
+    .news-items {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;  /* 新闻项之间的间距 */
+    }
+  
+    .news-item {
+      padding: 10px;
+      width: 1000px;  /* 每个新闻项固定宽度 */
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+  
+    .news-description {
+      text-decoration: none;
+      margin: 0 0 1px;
+      font-size: 1.2em;
+    }
+  </style>
+  

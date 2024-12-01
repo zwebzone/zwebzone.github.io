@@ -5,7 +5,6 @@
     <link>https://zweb.zone/tags/</link>
     <description>Recent content in Tags on zwebrain</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <atom:link href="https://zweb.zone/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://zweb.zone/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
