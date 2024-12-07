@@ -73,10 +73,10 @@ enableEmoji = true
   avatarURL = "/images/red.jpg"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
-  avatarSize = "size-l"
+  avatarSize = "size-xl"
 
   # Description to display on homepage
-  description = "Is it everything or is it just that I’m insane?"
+  description = "Is it everything or is it just that I'm insane?"
   
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#66CCFF"

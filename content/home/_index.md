@@ -54,7 +54,7 @@ Explore the full list of publications <font color="#EE0000">[here](../publicatio
 - 2020 Jun-Aug, Android Development Engineer, Moon Environment Technology Co., Ltd.
 
 ---
-<h2 align="center"> 🏆 Honors </h2>
+<h2 align="center"> 🏆 Awards and Honors </h2>
 
 - Outstanding Graduate Award, SUSTech, 2022.
 - Highest Honors in Computer Science and Engineering, SUSTech, 2022.
