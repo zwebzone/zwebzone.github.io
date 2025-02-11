@@ -18,6 +18,36 @@ type: page
     rightBottomColor="#cc489e" >}}
 
 ### Conference Papers
+> 2025
+
+{{< paper
+    image="/images/papers/HiRA.png"
+    title="HiRA: Parameter-Efficient Hadamard High-Rank Adaptation for Large Language Models"
+    authors="Qiushi Huang, Tom Ko, <strong>Zhan Zhuang</strong>, Lilian Tang, Yu Zhang*"
+    publication="ICLR 2025 (<font color=red><strong>Oral</strong></font>), Singapore"
+    pdf="https://openreview.net/pdf?id=TwJrTz9cRS"
+    leftTopColor="#6cc730"
+    rightBottomColor="#35414d" >}}
+
+
+{{< paper
+    image="/images/papers/MTSAM.png"
+    title="MTSAM: Multi-Task Fine-Tuning for Segment Anything Model"
+    authors="Xuehao Wang, <strong>Zhan Zhuang</strong>, Feiyang Ye, Yu Zhang*"
+    publication="ICLR 2025, Singapore"
+    pdf="https://openreview.net/pdf?id=6N4QMbeVaO"
+    leftTopColor="#c1e5f5"
+    rightBottomColor="#a9d18e" >}}
+
+{{< longpaper
+    image="/images/papers/moonshine.png"
+    title="Moonshine: Distilling Game Content Generators into Steerable Generative Models"
+    authors="Yuhe Nie, Michael Middleton, Tim Merino, Nidhushan Kanagaraja, Ashutosh Kumar, <strong>Zhan Zhuang</strong>*, Julian Togelius*"
+    publication="AAAI 2025 (<font color=red><strong>Oral</strong></font>), Philadelphia, USA"
+    pdf="https://arxiv.org/pdf/2408.09594"
+    leftTopColor="#003973"
+    rightBottomColor="#003973" >}}
+
 > 2024
 
 {{< paper

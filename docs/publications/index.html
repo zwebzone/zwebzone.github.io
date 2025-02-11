@@ -37,13 +37,13 @@
     
     <link rel="canonical" href="https://zweb.zone/publications/" />
 
-    <link rel="stylesheet" type="text/css" href="https://zweb.zone/css/normalize.min.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" type="text/css" href="https://zweb.zone/css/main.css">
-    <link disabled id="dark-theme" rel="stylesheet" href="https://zweb.zone/css/dark.css">
+    <link rel="stylesheet" type="text/css" href="https://zweb.zone//css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://zweb.zone//css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://zweb.zone//css/dark.css">
 
-    <script src="https://zweb.zone/js/svg-injector.min.js"></script>
-    <script src="https://zweb.zone/js/feather-icons.min.js"></script>
-    <script src="https://zweb.zone/js/main.js"></script>
+    <script src="https://zweb.zone//js/svg-injector.min.js"></script>
+    <script src="https://zweb.zone//js/feather-icons.min.js"></script>
+    <script src="https://zweb.zone//js/main.js"></script>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -79,14 +79,14 @@ var _hmt = _hmt || [];
 
         
         <div class="avatar">
-            <a href="https://zweb.zone">
-                <img src="https://zweb.zone/images/red.jpg" alt="avatar" />
+            <a href="https://zweb.zone/">
+                <img src="https://zweb.zone//images/red.jpg" alt="avatar" />
             </a>
         </div>
         
 
         <div class="nav-title">
-            <a class="nav-brand" href="https://zweb.zone">zwebrain</a>
+            <a class="nav-brand" href="https://zweb.zone/">zwebrain</a>
         </div>
 
         <div class="nav-links">
@@ -154,8 +154,7 @@ var _hmt = _hmt || [];
             <p>( ___: equal contribution, *: corresponding author)</p>
 <h3 id="workshop-papers--preprints">Workshop Papers &amp; Preprints</h3>
 <blockquote>
-<p>2024</p>
-</blockquote>
+<p>2024</p></blockquote>
 <div class="paper">
     <div class="paper-image">
       <div class="image-wrapper" style="--left-top-color: #6f2add; --right-bottom-color: #cc489e;">
@@ -334,8 +333,535 @@ var _hmt = _hmt || [];
 </script>
 <h3 id="conference-papers">Conference Papers</h3>
 <blockquote>
-<p>2024</p>
-</blockquote>
+<p>2025</p></blockquote>
+<div class="paper">
+    <div class="paper-image">
+      <div class="image-wrapper" style="--left-top-color: #6cc730; --right-bottom-color: #35414d;">
+        
+        <img src="/images/papers/HiRA.png" alt="HiRA: Parameter-Efficient Hadamard High-Rank Adaptation for Large Language Models image" class="thumbnail" onclick="openModal('\/images\/papers\/HiRA.png')" />
+      </div>
+    </div>
+    <div class="paper-details">
+      <h3 class="paper-title">HiRA: Parameter-Efficient Hadamard High-Rank Adaptation for Large Language Models</h3>
+      <p class="paper-authors">
+        <span class="authors"></span>Qiushi Huang, Tom Ko, <strong>Zhan Zhuang</strong>, Lilian Tang, Yu Zhang*
+      </p>
+      <p class="paper-publication">ICLR 2025 (<font color=red><strong>Oral</strong></font>), Singapore</p>
+      
+      <p class="paper-link" >
+        
+          <a href="https://openreview.net/pdf?id=TwJrTz9cRS" target="_blank" class="no-underline">PDF</a>
+        
+        
+      </p>
+    </div>
+  </div>
+
+  <div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img id="modal-image" class="modal-content" />
+  </div>
+    
+<style>
+    .no-underline {
+        color: #1a73e8;  
+        text-decoration: none;   
+    }
+
+    .paper {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    }
+
+     
+    .image-wrapper {
+    position: relative;
+    width: 240px;
+    height: 135px;
+    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+     
+    .image-wrapper img {
+    max-width: 85%;
+    max-height: 90%;
+    object-fit: contain;  
+    }
+
+     
+    .image-wrapper::before, .image-wrapper::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    }
+
+     
+    .image-wrapper::before {
+    top: 0px;
+    left: 0px;
+    width: 96px;
+    height: 54px;
+    border-width: 8px 0 0 8px;
+    border-color: var(--left-top-color, red);  
+    }
+
+     
+    .image-wrapper::after {
+    bottom: 0px;
+    right: 0px;
+    width: 96px;
+    height: 54px;
+    border-width: 0 8px 8px 0; 
+    border-color: var(--right-bottom-color, blue);  
+    }
+
+    .paper-details {
+    margin-top: -30px;
+    margin-left: 20px;
+    }
+
+    .paper-title {
+    margin: 0;
+    font-size: 0.9em;
+    }
+
+    .paper-authors, .paper-publication, .paper-link{
+        margin: 5px 0;
+        font-size: 0.8em;
+    }
+
+    .authors {
+        font-weight: bold;
+        
+    }
+    
+    .authors sup {
+        font-size: 0.8em;
+        vertical-align: super;
+    }
+
+    .modal {
+    display: none;  
+    position: fixed;
+    z-index: 1;  
+    padding-top: 60px;  
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;  
+    background-color: rgba(0, 0, 0, 0.8);  
+    justify-content: center;
+    align-items: center;
+    }
+    
+     
+    .modal-content {
+    max-width: 90%;
+    max-height: 80%;
+    margin: auto;
+    display: block;
+    }
+    
+     
+    .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    }
+    
+    .close:hover,
+    .close:focus {
+    color: #f1f1f1;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    .thumbnail {
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .thumbnail:hover {
+    transform: scale(1.05);  
+    }
+</style>
+
+<script>
+    
+    function openModal(imageSrc) {
+    var modal = document.getElementById("modal");
+    var modalImage = document.getElementById("modal-image");
+    modal.style.display = "flex";  
+    modalImage.src = imageSrc;    
+    }
+
+    
+    function closeModal() {
+    var modal = document.getElementById("modal");
+    modal.style.display = "none";  
+    }
+</script>
+<div class="paper">
+    <div class="paper-image">
+      <div class="image-wrapper" style="--left-top-color: #c1e5f5; --right-bottom-color: #a9d18e;">
+        
+        <img src="/images/papers/MTSAM.png" alt="MTSAM: Multi-Task Fine-Tuning for Segment Anything Model image" class="thumbnail" onclick="openModal('\/images\/papers\/MTSAM.png')" />
+      </div>
+    </div>
+    <div class="paper-details">
+      <h3 class="paper-title">MTSAM: Multi-Task Fine-Tuning for Segment Anything Model</h3>
+      <p class="paper-authors">
+        <span class="authors"></span>Xuehao Wang, <strong>Zhan Zhuang</strong>, Feiyang Ye, Yu Zhang*
+      </p>
+      <p class="paper-publication">ICLR 2025, Singapore</p>
+      
+      <p class="paper-link" >
+        
+          <a href="https://openreview.net/pdf?id=6N4QMbeVaO" target="_blank" class="no-underline">PDF</a>
+        
+        
+      </p>
+    </div>
+  </div>
+
+  <div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img id="modal-image" class="modal-content" />
+  </div>
+    
+<style>
+    .no-underline {
+        color: #1a73e8;  
+        text-decoration: none;   
+    }
+
+    .paper {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    }
+
+     
+    .image-wrapper {
+    position: relative;
+    width: 240px;
+    height: 135px;
+    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+     
+    .image-wrapper img {
+    max-width: 85%;
+    max-height: 90%;
+    object-fit: contain;  
+    }
+
+     
+    .image-wrapper::before, .image-wrapper::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    }
+
+     
+    .image-wrapper::before {
+    top: 0px;
+    left: 0px;
+    width: 96px;
+    height: 54px;
+    border-width: 8px 0 0 8px;
+    border-color: var(--left-top-color, red);  
+    }
+
+     
+    .image-wrapper::after {
+    bottom: 0px;
+    right: 0px;
+    width: 96px;
+    height: 54px;
+    border-width: 0 8px 8px 0; 
+    border-color: var(--right-bottom-color, blue);  
+    }
+
+    .paper-details {
+    margin-top: -30px;
+    margin-left: 20px;
+    }
+
+    .paper-title {
+    margin: 0;
+    font-size: 0.9em;
+    }
+
+    .paper-authors, .paper-publication, .paper-link{
+        margin: 5px 0;
+        font-size: 0.8em;
+    }
+
+    .authors {
+        font-weight: bold;
+        
+    }
+    
+    .authors sup {
+        font-size: 0.8em;
+        vertical-align: super;
+    }
+
+    .modal {
+    display: none;  
+    position: fixed;
+    z-index: 1;  
+    padding-top: 60px;  
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;  
+    background-color: rgba(0, 0, 0, 0.8);  
+    justify-content: center;
+    align-items: center;
+    }
+    
+     
+    .modal-content {
+    max-width: 90%;
+    max-height: 80%;
+    margin: auto;
+    display: block;
+    }
+    
+     
+    .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    }
+    
+    .close:hover,
+    .close:focus {
+    color: #f1f1f1;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    .thumbnail {
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .thumbnail:hover {
+    transform: scale(1.05);  
+    }
+</style>
+
+<script>
+    
+    function openModal(imageSrc) {
+    var modal = document.getElementById("modal");
+    var modalImage = document.getElementById("modal-image");
+    modal.style.display = "flex";  
+    modalImage.src = imageSrc;    
+    }
+
+    
+    function closeModal() {
+    var modal = document.getElementById("modal");
+    modal.style.display = "none";  
+    }
+</script>
+<div class="paper">
+    <div class="paper-image">
+      <div class="image-wrapper" style="--left-top-color: #003973; --right-bottom-color: #003973;">
+        
+        <img src="/images/papers/moonshine.png" alt="Moonshine: Distilling Game Content Generators into Steerable Generative Models image" class="thumbnail" onclick="openModal('\/images\/papers\/moonshine.png')" />
+      </div>
+    </div>
+    <div class="paper-details">
+      <h3 class="paper-title">Moonshine: Distilling Game Content Generators into Steerable Generative Models</h3>
+      <p class="paper-authors">
+        <span class="authors"></span>Yuhe Nie, Michael Middleton, Tim Merino, Nidhushan Kanagaraja, Ashutosh Kumar, <strong>Zhan Zhuang</strong>*, Julian Togelius*
+      </p>
+      <p class="paper-publication">AAAI 2025 (<font color=red><strong>Oral</strong></font>), Philadelphia, USA
+      
+      &emsp;	<a href="https://arxiv.org/pdf/2408.09594" target="_blank" class="no-underline">PDF</a>
+      
+      
+      </p>
+    </div>
+  </div>
+
+  <div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img id="modal-image" class="modal-content" />
+  </div>
+    
+<style>
+    .no-underline {
+        color: #1a73e8;  
+        text-decoration: none;   
+    }
+
+    .paper {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    }
+
+     
+    .image-wrapper {
+    position: relative;
+    width: 240px;
+    height: 135px;
+    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+     
+    .image-wrapper img {
+    max-width: 85%;
+    max-height: 90%;
+    object-fit: contain;  
+    }
+
+     
+    .image-wrapper::before, .image-wrapper::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    }
+
+     
+    .image-wrapper::before {
+    top: 0px;
+    left: 0px;
+    width: 96px;
+    height: 54px;
+    border-width: 8px 0 0 8px;
+    border-color: var(--left-top-color, red);  
+    }
+
+     
+    .image-wrapper::after {
+    bottom: 0px;
+    right: 0px;
+    width: 96px;
+    height: 54px;
+    border-width: 0 8px 8px 0; 
+    border-color: var(--right-bottom-color, blue);  
+    }
+
+    .paper-details {
+    margin-top: -30px;
+    margin-left: 20px;
+    }
+
+    .paper-title {
+    margin: 0;
+    font-size: 0.9em;
+    }
+
+    .paper-authors, .paper-publication, .paper-link{
+        margin: 5px 0;
+        font-size: 0.8em;
+    }
+
+    .authors {
+        font-weight: bold;
+        
+    }
+    
+    .authors sup {
+        font-size: 0.8em;
+        vertical-align: super;
+    }
+
+    .modal {
+    display: none;  
+    position: fixed;
+    z-index: 1;  
+    padding-top: 60px;  
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;  
+    background-color: rgba(0, 0, 0, 0.8);  
+    justify-content: center;
+    align-items: center;
+    }
+    
+     
+    .modal-content {
+    max-width: 90%;
+    max-height: 80%;
+    margin: auto;
+    display: block;
+    }
+    
+     
+    .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    }
+    
+    .close:hover,
+    .close:focus {
+    color: #f1f1f1;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    .thumbnail {
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .thumbnail:hover {
+    transform: scale(1.05);  
+    }
+</style>
+
+<script>
+    
+    function openModal(imageSrc) {
+    var modal = document.getElementById("modal");
+    var modalImage = document.getElementById("modal-image");
+    modal.style.display = "flex";  
+    modalImage.src = imageSrc;    
+    }
+
+    
+    function closeModal() {
+    var modal = document.getElementById("modal");
+    modal.style.display = "none";  
+    }
+</script>
+<blockquote>
+<p>2024</p></blockquote>
 <div class="paper">
     <div class="paper-image">
       <div class="image-wrapper" style="--left-top-color: #c5de63; --right-bottom-color: #bf6185;">
@@ -693,8 +1219,7 @@ var _hmt = _hmt || [];
     }
 </script>
 <blockquote>
-<p>2023</p>
-</blockquote>
+<p>2023</p></blockquote>
 <div class="paper">
     <div class="paper-image">
       <div class="image-wrapper" style="--left-top-color: #5dd8c1; --right-bottom-color: #af84cd;">
@@ -1062,7 +1587,7 @@ var _hmt = _hmt || [];
       </p>
       <p class="paper-publication">Renewable Energy, 2023
       
-       <a href="https://www.sciencedirect.com/science/article/pii/S0960148123013861/pdfft?md5=756866cc020ba9d27796bac2832fcdb4&amp;pid=1-s2.0-S0960148123013861-main.pdf" target="_blank" class="no-underline">PDF</a>
+      &emsp;	<a href="https://www.sciencedirect.com/science/article/pii/S0960148123013861/pdfft?md5=756866cc020ba9d27796bac2832fcdb4&amp;pid=1-s2.0-S0960148123013861-main.pdf" target="_blank" class="no-underline">PDF</a>
       
       
       </p>
@@ -1232,7 +1757,7 @@ var _hmt = _hmt || [];
         </main><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
 <footer class="footer">
-    <span>&copy; 2024 zwebrain</span>
+    <span>&copy; 2025 zwebrain</span>
     <span> <a id="busuanzi_value_site_pv"></a> Views | <a id="busuanzi_value_site_uv"></a> Visitors</span>
     <span> Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a></span>
 </footer>

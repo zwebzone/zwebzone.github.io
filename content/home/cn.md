@@ -8,14 +8,9 @@ type: page
 | 联系方式 | 1173105448 | zwebrain | 12250063 [at] mail.sustech.edu.cn |
 
 
-你好，我叫庄湛，本科就读于[南方科技大学](https://www.sustech.edu.cn/)计算机科学与技术专业，导师是[宋轩副教授](https://faculty.sustech.edu.cn/songx/)。目前我在南方科技大学和香港城市大学的联合培养下攻读博士学位，我的两位导师为南科大的[张宇副教授](https://yuzhanghk.github.io/)和港城大的[魏颖助理教授](https://wei-ying.net/)。我的研究兴趣主要包括迁移学习、元学习、生成模型、AI4Science等。欢迎和我一起讨论，一起学习！
+你好，我叫庄湛，本科就读于[南方科技大学](https://www.sustech.edu.cn/)计算机科学与技术专业，导师是[宋轩副教授](https://faculty.sustech.edu.cn/songx/)。目前我在南方科技大学和香港城市大学的联合培养下攻读博士学位，我的导师为南科大的[张宇](https://yuzhanghk.github.io/)，浙江大学（曾在港城大任职）的[魏颖](https://wei-ying.net/)和港城大的[马柯德](https://kedema.org/)。我的研究兴趣主要包括迁移学习、元学习、生成模型、AI4Science等。欢迎和我一起讨论，一起学习！
 
 ---
-
-## 🆕 最新消息
-
-- 【2024年1月】我的首篇第一作者文章被国际表征学习大会（ICLR2024）接收为Spotlight。
-- 【2023年8月】我与女朋友合作的首篇论文获得2023年IEEE游戏大会(CoG)最佳论文。
 
 ## 🏆 曾获荣誉
 

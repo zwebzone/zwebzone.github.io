@@ -9,7 +9,7 @@ z<font color="red">we</font><font color="purple">b</font><font color="blue">rain
 
 ### 关于音乐
 
-据说zwebrain在不识字时便会随音乐起舞，至今酷爱音乐，是重度[网抑云用户](https://y.music.163.com/m/user?id=96064525)（Lv10，年均听歌大于1000h），虽然从未坚持学习乐器，现在又开始学习编曲了。zwebrain是VOCALOID厨（ボカロ+中V），塞壬唱片忠实粉丝，acane的小刺猬，米门信徒，泠鸢乐迷。最喜欢的乐队是<font color="#6f2add">[ずっと真夜中でいいのに。（ZUTOMAYO）](https://zutomayo.net/)</font>，最喜欢P主wowaka的曲风，最喜爱的中文音乐团体是<font color="#51d4f0">[七里桥（ChiliChill）](https://chilichill-music.com/)。[<small>了解更多？</small>]</font>(./music/)
+据说zwebrain在不识字时便会随音乐起舞，至今酷爱音乐，是重度[网抑云用户](https://y.music.163.com/m/user?id=96064525)（Lv10，年均听歌大于1000h），虽然从未坚持学习乐器，现在又开始学习编曲了。zwebrain是VOCALOID厨（ボカロ+中V），四夜人，塞壬唱片忠实粉丝，米门信徒，泠鸢乐迷。最喜欢的乐队是<font color="#6f2add">[ずっと真夜中でいいのに。（ZUTOMAYO）](https://zutomayo.net/)</font>，喜欢P主wowaka、稲葉曇、ピノキオピー和かいりきベア，最喜爱的中文音乐团体是<font color="#51d4f0">[七里桥（ChiliChill）](https://chilichill-music.com/)。</font>[<small>了解更多？</small>](./music/)
 
 
 ### 关于动漫

@@ -4,7 +4,8 @@
     <title>Publications on zwebrain</title>
     <link>https://zweb.zone/publications/</link>
     <description>Recent content in Publications on zwebrain</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://zweb.zone/publications/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://zweb.zone/publications/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

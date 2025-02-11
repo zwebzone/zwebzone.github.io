@@ -4,56 +4,43 @@
     <title>zwebrain</title>
     <link>https://zweb.zone/</link>
     <description>Recent content on zwebrain</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://zweb.zone/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://zweb.zone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>兴趣 | 关于动漫</title>
       <link>https://zweb.zone/home/cn/more/anime/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://zweb.zone/home/cn/more/anime/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>兴趣 | 关于游戏</title>
       <link>https://zweb.zone/home/cn/more/game/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://zweb.zone/home/cn/more/game/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>兴趣 | 关于运动</title>
       <link>https://zweb.zone/home/cn/more/sport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://zweb.zone/home/cn/more/sport/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>兴趣 | 关于音乐</title>
       <link>https://zweb.zone/home/cn/more/music/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://zweb.zone/home/cn/more/music/</guid>
-      <description>My top ten favorite songs by ZUTOMAYO:
-秒針を噛む (Byoushinwo Kamu) ヒューマノイド (Humanoid) 眩しいDNAだけ (Mabushii DNA Dake) 暗く黒く (Darken) ハゼ馳せる果てるまで (Haze Haseru Haterumade) 脳裏上のクラッカー (Nōriue no Cracker) あいつら全員同窓会 (Inside Joke) お勉強しといてよ (Obenkyō Shitoite yo, STUDY ME) 正義 (Seigi) 海馬成長痛 (Hippocampal Pain) </description>
+      <description>&lt;p&gt;My Favorite/Recommended Songs by ZUTOMAYO:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;秒針を噛む (Byoushinwo Kamu)&lt;/li&gt;&#xA;&lt;li&gt;ヒューマノイド (Humanoid)&lt;/li&gt;&#xA;&lt;li&gt;眩しいDNAだけ (Mabushii DNA Dake)&lt;/li&gt;&#xA;&lt;li&gt;暗く黒く (Darken)&lt;/li&gt;&#xA;&lt;li&gt;ハゼ馳せる果てるまで (Haze Haseru Haterumade)&lt;/li&gt;&#xA;&lt;li&gt;脳裏上のクラッカー (Nōriue no Cracker)&lt;/li&gt;&#xA;&lt;li&gt;あいつら全員同窓会 (Inside Joke)&lt;/li&gt;&#xA;&lt;li&gt;クズリ念 (KUZURI)&lt;/li&gt;&#xA;&lt;li&gt;お勉強しといてよ (Obenkyō Shitoite yo, STUDY ME)&lt;/li&gt;&#xA;&lt;li&gt;海馬成長痛 (Hippocampal Pain)&lt;/li&gt;&#xA;&lt;li&gt;正義&lt;/li&gt;&#xA;&lt;li&gt;MILABO&lt;/li&gt;&#xA;&lt;li&gt;嘘じゃない&lt;/li&gt;&#xA;&lt;li&gt;低血ボルト&lt;/li&gt;&#xA;&lt;li&gt;こんなこと騒動&lt;/li&gt;&#xA;&lt;li&gt;Dear Mr 「F」&lt;/li&gt;&#xA;&lt;li&gt;サターン&lt;/li&gt;&#xA;&lt;li&gt;違う曲にしようよ&lt;/li&gt;&#xA;&lt;li&gt;Ham&lt;/li&gt;&#xA;&lt;li&gt;またね幻&lt;/li&gt;&#xA;&lt;li&gt;不法侵入&lt;/li&gt;&#xA;&lt;li&gt;雲丹と栗&lt;/li&gt;&#xA;&lt;li&gt;君がいて水になる&lt;/li&gt;&#xA;&lt;li&gt;TAIDADA&lt;/li&gt;&#xA;&lt;li&gt;勘ぐれい&lt;/li&gt;&#xA;&lt;li&gt;マイノリティ脈絡&lt;/li&gt;&#xA;&lt;li&gt;勘冴えて悔しいわ&lt;/li&gt;&#xA;&lt;li&gt;ミラーチューン&lt;/li&gt;&#xA;&lt;li&gt;マリンブルーの庭園&lt;/li&gt;&#xA;&lt;li&gt;花一匁&lt;/li&gt;&#xA;&lt;li&gt;ばかじゃないのに&lt;/li&gt;&#xA;&lt;li&gt;優しくLAST SMILE&lt;/li&gt;&#xA;&lt;li&gt;消えてしまいそうです&lt;/li&gt;&#xA;&lt;li&gt;夏枯れ&lt;/li&gt;&#xA;&lt;li&gt;はゔぁ&lt;/li&gt;&#xA;&lt;li&gt;JK BOMBER&lt;/li&gt;&#xA;&lt;li&gt;彷徨い酔い温度&lt;/li&gt;&#xA;&lt;li&gt;虚仮にしてくれ&lt;/li&gt;&#xA;&lt;li&gt;上辺の私自身なんだよ&lt;/li&gt;&#xA;&lt;li&gt;胸の煙&lt;/li&gt;&#xA;&lt;li&gt;蹴っ飛ばした毛布&lt;/li&gt;&#xA;&lt;li&gt;居眠り遠征隊&lt;/li&gt;&#xA;&lt;li&gt;残機&lt;/li&gt;&#xA;&lt;li&gt;綺羅キラー&lt;/li&gt;&#xA;&lt;li&gt;猫リセット&lt;/li&gt;&#xA;&lt;li&gt;袖のキルト&lt;/li&gt;&#xA;&lt;li&gt;ろんりねす&lt;/li&gt;&#xA;&lt;li&gt;Blues in the Closet&lt;/li&gt;&#xA;&lt;li&gt;過眠&lt;/li&gt;&#xA;&lt;li&gt;夜中のキスミ&lt;/li&gt;&#xA;&lt;li&gt;馴れ合いサーブ&lt;/li&gt;&#xA;&lt;li&gt;機械油&lt;/li&gt;&#xA;&lt;li&gt;奥底に眠るルーツ&lt;/li&gt;&#xA;&lt;li&gt;グラスとラムレーズン&lt;/li&gt;&#xA;&lt;li&gt;繰り返す収穫&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;My Live experiences so far：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>庄湛 @ zwebrain</title>
       <link>https://zweb.zone/home/cn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://zweb.zone/home/cn/</guid>
-      <description> [QQ] [微信] [邮箱] 联系方式 1173105448 zwebrain 12250063 [at] mail.sustech.edu.cn 你好，我叫庄湛，本科就读于南方科技大学计算机科学与技术专业，导师是宋轩副教授。目前我在南方科技大学和香港城市大学的联合培养下攻读博士学位，我的两位导师为南科大的张宇副教授和港城大的魏颖助理教授。我的研究兴趣主要包括迁移学习、元学习、生成模型、AI4Science等。欢迎和我一起讨论，一起学习！
-🆕 最新消息 【2024年1月】我的首篇第一作者文章被国际表征学习大会（ICLR2024）接收为Spotlight。 【2023年8月】我与女朋友合作的首篇论文获得2023年IEEE游戏大会(CoG)最佳论文。 🏆 曾获荣誉 本科期间
-南方科技大学优秀毕业生，计系优秀毕业生，树德书院十佳毕业生 ASC20-21世界大学生超级计算机竞赛团体一等奖 link 亚太区高性能计算和人工智能竞赛团体季军 link 美国大学生数学建模竞赛国际二等奖 MathorCup高校数学建模挑战赛一等奖 校优秀学生干部，优秀共青团员，义工联急救应援守护奖 校优秀学生奖学金一等奖、二等奖 本科以前
-校优秀学生干部，2015、2016、2017 🥳 课外活动（曾经） 树德书院弘毅党支部第二党小组组长 18级南科大计系树德书院班长 南科大学生超算队队员 树德书院学长团成员，1918班大学长 校应急救援队队员，授课部部员 树德男子足球队副队长，门将 树德STEAM+创客志愿教师 树德书院团总支创新创业部部员 南方科技大学1817班团支部学习委员 石家庄二中实验学校1510班学习委员 专利 【授权】宋轩，聂雨荷，张浩然，庄湛。获取密接人员信息方法、装置、服务器和存储介质。 【授权】宋轩，庄湛，张浩然，云沐晟，林贵旭。基于区块链的数据处理方法、装置、设备及存储介质。 💗 我的最爱 小小的大肥的主页 了解更多关于zwebrain </description>
+      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;&#xA;          &lt;th&gt;[QQ]&lt;/th&gt;&#xA;          &lt;th&gt;[微信]&lt;/th&gt;&#xA;          &lt;th&gt;[邮箱]&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;联系方式&lt;/td&gt;&#xA;          &lt;td&gt;1173105448&lt;/td&gt;&#xA;          &lt;td&gt;zwebrain&lt;/td&gt;&#xA;          &lt;td&gt;12250063 [at] mail.sustech.edu.cn&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;你好，我叫庄湛，本科就读于&lt;a href=&#34;https://www.sustech.edu.cn/&#34;&gt;南方科技大学&lt;/a&gt;计算机科学与技术专业，导师是&lt;a href=&#34;https://faculty.sustech.edu.cn/songx/&#34;&gt;宋轩副教授&lt;/a&gt;。目前我在南方科技大学和香港城市大学的联合培养下攻读博士学位，我的导师为南科大的&lt;a href=&#34;https://yuzhanghk.github.io/&#34;&gt;张宇&lt;/a&gt;，浙江大学（曾在港城大任职）的&lt;a href=&#34;https://wei-ying.net/&#34;&gt;魏颖&lt;/a&gt;和港城大的&lt;a href=&#34;https://kedema.org/&#34;&gt;马柯德&lt;/a&gt;。我的研究兴趣主要包括迁移学习、元学习、生成模型、AI4Science等。欢迎和我一起讨论，一起学习！&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-曾获荣誉&#34;&gt;🏆 曾获荣誉&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本科期间&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;南方科技大学优秀毕业生，计系优秀毕业生，树德书院十佳毕业生&lt;/li&gt;&#xA;&lt;li&gt;ASC20-21世界大学生超级计算机竞赛团体一等奖 &lt;a href=&#34;https://sustechef.sustech.edu.cn/news/38/335.html&#34;&gt;&lt;small&gt;link&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;亚太区高性能计算和人工智能竞赛团体季军 &lt;a href=&#34;https://newshub.sustech.edu.cn/html/202011/39141.html&#34;&gt;&lt;small&gt;link&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;美国大学生数学建模竞赛国际二等奖&lt;/li&gt;&#xA;&lt;li&gt;MathorCup高校数学建模挑战赛一等奖&lt;/li&gt;&#xA;&lt;li&gt;校优秀学生干部，优秀共青团员，义工联急救应援守护奖&lt;/li&gt;&#xA;&lt;li&gt;校优秀学生奖学金一等奖、二等奖&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本科以前&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;校优秀学生干部，2015、2016、2017&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-课外活动曾经&#34;&gt;🥳 课外活动（曾经）&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;树德书院弘毅党支部第二党小组组长&lt;/li&gt;&#xA;&lt;li&gt;18级南科大计系树德书院班长&lt;/li&gt;&#xA;&lt;li&gt;南科大学生超算队队员&lt;/li&gt;&#xA;&lt;li&gt;树德书院学长团成员，1918班大学长&lt;/li&gt;&#xA;&lt;li&gt;校应急救援队队员，授课部部员&lt;/li&gt;&#xA;&lt;li&gt;树德男子足球队副队长，门将&lt;/li&gt;&#xA;&lt;li&gt;树德STEAM+创客志愿教师&lt;/li&gt;&#xA;&lt;li&gt;树德书院团总支创新创业部部员&lt;/li&gt;&#xA;&lt;li&gt;南方科技大学1817班团支部学习委员&lt;/li&gt;&#xA;&lt;li&gt;石家庄二中实验学校1510班学习委员&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;专利&#34;&gt;专利&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;【授权】宋轩，聂雨荷，张浩然，&lt;strong&gt;庄湛&lt;/strong&gt;。获取密接人员信息方法、装置、服务器和存储介质。&lt;/li&gt;&#xA;&lt;li&gt;【授权】宋轩，&lt;strong&gt;庄湛&lt;/strong&gt;，张浩然，云沐晟，林贵旭。基于区块链的数据处理方法、装置、设备及存储介质。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-我的最爱&#34;&gt;💗 我的最爱&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;小小的大肥的&lt;a href=&#34;https://nyh-dolphin.github.io/&#34;&gt;主页&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./more/&#34; title=&#34;你知道的太多了!&#34;&gt;了解更多关于zwebrain&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>
