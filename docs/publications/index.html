@@ -152,9 +152,9 @@ var _hmt = _hmt || [];
     <div class="post-content">
         <p>
             <p>( ___: equal contribution, *: corresponding author)</p>
-<h3 id="workshop-papers--preprints">Workshop Papers &amp; Preprints</h3>
-<blockquote>
-<p>2024</p></blockquote>
+<!-- ###  Workshop Papers & Preprints
+> 2024
+
 <div class="paper">
     <div class="paper-image">
       <div class="image-wrapper" style="--left-top-color: #6f2add; --right-bottom-color: #cc489e;">
@@ -330,10 +330,536 @@ var _hmt = _hmt || [];
     var modal = document.getElementById("modal");
     modal.style.display = "none";  
     }
-</script>
+</script> -->
 <h3 id="conference-papers">Conference Papers</h3>
 <blockquote>
 <p>2025</p></blockquote>
+<div class="paper">
+    <div class="paper-image">
+      <div class="image-wrapper" style="--left-top-color: #e96661; --right-bottom-color: #67ab9f;">
+        
+        <img src="/images/papers/PLAN.png" alt="PLAN: Proactive Low-Rank Allocation for Continual Learning image" class="thumbnail" onclick="openModal('\/images\/papers\/PLAN.png')" />
+      </div>
+    </div>
+    <div class="paper-details">
+      <h3 class="paper-title">PLAN: Proactive Low-Rank Allocation for Continual Learning</h3>
+      <p class="paper-authors">
+        <span class="authors"></span>Xiequn Wang, Zhan Zhuang, and Yu Zhang*
+      </p>
+      <p class="paper-publication">ICCV 2025, Honolulu, USA</p>
+      
+      <p class="paper-link" >
+        
+        
+      </p>
+    </div>
+  </div>
+
+  <div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img id="modal-image" class="modal-content" />
+  </div>
+    
+<style>
+    .no-underline {
+        color: #1a73e8;  
+        text-decoration: none;   
+    }
+
+    .paper {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    }
+
+     
+    .image-wrapper {
+    position: relative;
+    width: 240px;
+    height: 135px;
+    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+     
+    .image-wrapper img {
+    max-width: 85%;
+    max-height: 90%;
+    object-fit: contain;  
+    }
+
+     
+    .image-wrapper::before, .image-wrapper::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    }
+
+     
+    .image-wrapper::before {
+    top: 0px;
+    left: 0px;
+    width: 96px;
+    height: 54px;
+    border-width: 8px 0 0 8px;
+    border-color: var(--left-top-color, red);  
+    }
+
+     
+    .image-wrapper::after {
+    bottom: 0px;
+    right: 0px;
+    width: 96px;
+    height: 54px;
+    border-width: 0 8px 8px 0; 
+    border-color: var(--right-bottom-color, blue);  
+    }
+
+    .paper-details {
+    margin-top: -30px;
+    margin-left: 20px;
+    }
+
+    .paper-title {
+    margin: 0;
+    font-size: 0.9em;
+    }
+
+    .paper-authors, .paper-publication, .paper-link{
+        margin: 5px 0;
+        font-size: 0.8em;
+    }
+
+    .authors {
+        font-weight: bold;
+        
+    }
+    
+    .authors sup {
+        font-size: 0.8em;
+        vertical-align: super;
+    }
+
+    .modal {
+    display: none;  
+    position: fixed;
+    z-index: 1;  
+    padding-top: 60px;  
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;  
+    background-color: rgba(0, 0, 0, 0.8);  
+    justify-content: center;
+    align-items: center;
+    }
+    
+     
+    .modal-content {
+    max-width: 90%;
+    max-height: 80%;
+    margin: auto;
+    display: block;
+    }
+    
+     
+    .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    }
+    
+    .close:hover,
+    .close:focus {
+    color: #f1f1f1;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    .thumbnail {
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .thumbnail:hover {
+    transform: scale(1.05);  
+    }
+</style>
+
+<script>
+    
+    function openModal(imageSrc) {
+    var modal = document.getElementById("modal");
+    var modalImage = document.getElementById("modal-image");
+    modal.style.display = "flex";  
+    modalImage.src = imageSrc;    
+    }
+
+    
+    function closeModal() {
+    var modal = document.getElementById("modal");
+    modal.style.display = "none";  
+    }
+</script>
+<div class="paper">
+    <div class="paper-image">
+      <div class="image-wrapper" style="--left-top-color: #d4c5dd; --right-bottom-color: #cee6d0;">
+        
+        <img src="/images/papers/CoTo.png" alt="Come Together, But Not Right Now: A Progressive Strategy to Boost Low-Rank Adaptation image" class="thumbnail" onclick="openModal('\/images\/papers\/CoTo.png')" />
+      </div>
+    </div>
+    <div class="paper-details">
+      <h3 class="paper-title">Come Together, But Not Right Now: A Progressive Strategy to Boost Low-Rank Adaptation</h3>
+      <p class="paper-authors">
+        <span class="authors"></span><strong>Zhan Zhuang</strong>, Xiequn Wang, Wei Li, Yulong Zhang, Qiushi Huang, Shuhao Chen, Xuehao Wang, Yanbin Wei, Yuhe Nie, Kede Ma*, Yu Zhang*, Ying Wei*
+      </p>
+      <p class="paper-publication">ICML 2025, Vancouver, Canada</p>
+      
+      <p class="paper-link" >
+        
+          <a href="https://openreview.net/forum?id=Zha2m39ZoM" target="_blank" class="no-underline">PDF</a>
+        
+        
+      </p>
+    </div>
+  </div>
+
+  <div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img id="modal-image" class="modal-content" />
+  </div>
+    
+<style>
+    .no-underline {
+        color: #1a73e8;  
+        text-decoration: none;   
+    }
+
+    .paper {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    }
+
+     
+    .image-wrapper {
+    position: relative;
+    width: 240px;
+    height: 135px;
+    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+     
+    .image-wrapper img {
+    max-width: 85%;
+    max-height: 90%;
+    object-fit: contain;  
+    }
+
+     
+    .image-wrapper::before, .image-wrapper::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    }
+
+     
+    .image-wrapper::before {
+    top: 0px;
+    left: 0px;
+    width: 96px;
+    height: 54px;
+    border-width: 8px 0 0 8px;
+    border-color: var(--left-top-color, red);  
+    }
+
+     
+    .image-wrapper::after {
+    bottom: 0px;
+    right: 0px;
+    width: 96px;
+    height: 54px;
+    border-width: 0 8px 8px 0; 
+    border-color: var(--right-bottom-color, blue);  
+    }
+
+    .paper-details {
+    margin-top: -30px;
+    margin-left: 20px;
+    }
+
+    .paper-title {
+    margin: 0;
+    font-size: 0.9em;
+    }
+
+    .paper-authors, .paper-publication, .paper-link{
+        margin: 5px 0;
+        font-size: 0.8em;
+    }
+
+    .authors {
+        font-weight: bold;
+        
+    }
+    
+    .authors sup {
+        font-size: 0.8em;
+        vertical-align: super;
+    }
+
+    .modal {
+    display: none;  
+    position: fixed;
+    z-index: 1;  
+    padding-top: 60px;  
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;  
+    background-color: rgba(0, 0, 0, 0.8);  
+    justify-content: center;
+    align-items: center;
+    }
+    
+     
+    .modal-content {
+    max-width: 90%;
+    max-height: 80%;
+    margin: auto;
+    display: block;
+    }
+    
+     
+    .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    }
+    
+    .close:hover,
+    .close:focus {
+    color: #f1f1f1;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    .thumbnail {
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .thumbnail:hover {
+    transform: scale(1.05);  
+    }
+</style>
+
+<script>
+    
+    function openModal(imageSrc) {
+    var modal = document.getElementById("modal");
+    var modalImage = document.getElementById("modal-image");
+    modal.style.display = "flex";  
+    modalImage.src = imageSrc;    
+    }
+
+    
+    function closeModal() {
+    var modal = document.getElementById("modal");
+    modal.style.display = "none";  
+    }
+</script>
+<div class="paper">
+    <div class="paper-image">
+      <div class="image-wrapper" style="--left-top-color: #9573a6; --right-bottom-color: #d69a00;">
+        
+        <img src="/images/papers/GVN.png" alt="Open Your Eyes: Vision Enhances Message Passing Neural Networks in Link Prediction image" class="thumbnail" onclick="openModal('\/images\/papers\/GVN.png')" />
+      </div>
+    </div>
+    <div class="paper-details">
+      <h3 class="paper-title">Open Your Eyes: Vision Enhances Message Passing Neural Networks in Link Prediction</h3>
+      <p class="paper-authors">
+        <span class="authors"></span>Yanbin Wei, Xuehao Wang, <strong>Zhan Zhuang</strong>, Yang Chen, Shuhao Chen, Yulong Zhang, James Kwok, Yu Zhang*
+      </p>
+      <p class="paper-publication">ICML 2025, Vancouver, Canada</p>
+      
+      <p class="paper-link" >
+        
+          <a href="https://openreview.net/forum?id=4y8H1sGK4Z" target="_blank" class="no-underline">PDF</a>
+        
+        
+      </p>
+    </div>
+  </div>
+
+  <div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img id="modal-image" class="modal-content" />
+  </div>
+    
+<style>
+    .no-underline {
+        color: #1a73e8;  
+        text-decoration: none;   
+    }
+
+    .paper {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    }
+
+     
+    .image-wrapper {
+    position: relative;
+    width: 240px;
+    height: 135px;
+    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+     
+    .image-wrapper img {
+    max-width: 85%;
+    max-height: 90%;
+    object-fit: contain;  
+    }
+
+     
+    .image-wrapper::before, .image-wrapper::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    }
+
+     
+    .image-wrapper::before {
+    top: 0px;
+    left: 0px;
+    width: 96px;
+    height: 54px;
+    border-width: 8px 0 0 8px;
+    border-color: var(--left-top-color, red);  
+    }
+
+     
+    .image-wrapper::after {
+    bottom: 0px;
+    right: 0px;
+    width: 96px;
+    height: 54px;
+    border-width: 0 8px 8px 0; 
+    border-color: var(--right-bottom-color, blue);  
+    }
+
+    .paper-details {
+    margin-top: -30px;
+    margin-left: 20px;
+    }
+
+    .paper-title {
+    margin: 0;
+    font-size: 0.9em;
+    }
+
+    .paper-authors, .paper-publication, .paper-link{
+        margin: 5px 0;
+        font-size: 0.8em;
+    }
+
+    .authors {
+        font-weight: bold;
+        
+    }
+    
+    .authors sup {
+        font-size: 0.8em;
+        vertical-align: super;
+    }
+
+    .modal {
+    display: none;  
+    position: fixed;
+    z-index: 1;  
+    padding-top: 60px;  
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;  
+    background-color: rgba(0, 0, 0, 0.8);  
+    justify-content: center;
+    align-items: center;
+    }
+    
+     
+    .modal-content {
+    max-width: 90%;
+    max-height: 80%;
+    margin: auto;
+    display: block;
+    }
+    
+     
+    .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    }
+    
+    .close:hover,
+    .close:focus {
+    color: #f1f1f1;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    .thumbnail {
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .thumbnail:hover {
+    transform: scale(1.05);  
+    }
+</style>
+
+<script>
+    
+    function openModal(imageSrc) {
+    var modal = document.getElementById("modal");
+    var modalImage = document.getElementById("modal-image");
+    modal.style.display = "flex";  
+    modalImage.src = imageSrc;    
+    }
+
+    
+    function closeModal() {
+    var modal = document.getElementById("modal");
+    modal.style.display = "none";  
+    }
+</script>
 <div class="paper">
     <div class="paper-image">
       <div class="image-wrapper" style="--left-top-color: #6cc730; --right-bottom-color: #35414d;">

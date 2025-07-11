@@ -5,7 +5,7 @@ type: page
 
 ( ___: equal contribution, *: corresponding author)
 
-###  Workshop Papers & Preprints
+<!-- ###  Workshop Papers & Preprints
 > 2024
 
 {{< paper
@@ -15,10 +15,37 @@ type: page
     publication="UniReps (Extended Abstract Track), NeurIPS 2024, Vancouver, Canada"
     pdf="https://openreview.net/pdf?id=gPYbL5fDGZ"
     leftTopColor="#6f2add"
-    rightBottomColor="#cc489e" >}}
+    rightBottomColor="#cc489e" >}} -->
 
 ### Conference Papers
 > 2025
+
+{{< paper
+    image="/images/papers/PLAN.png"
+    title="PLAN: Proactive Low-Rank Allocation for Continual Learning"
+    authors="Xiequn Wang, Zhan Zhuang, and Yu Zhang*"
+    publication="ICCV 2025, Honolulu, USA"
+    leftTopColor="#e96661"
+    rightBottomColor="#67ab9f" >}}
+    
+{{< paper
+    image="/images/papers/CoTo.png"
+    title="Come Together, But Not Right Now: A Progressive Strategy to Boost Low-Rank Adaptation"
+    authors="<strong>Zhan Zhuang</strong>, Xiequn Wang, Wei Li, Yulong Zhang, Qiushi Huang, Shuhao Chen, Xuehao Wang, Yanbin Wei, Yuhe Nie, Kede Ma*, Yu Zhang*, Ying Wei*"
+    publication="ICML 2025, Vancouver, Canada"
+    pdf="https://openreview.net/forum?id=Zha2m39ZoM"
+    leftTopColor="#d4c5dd"
+    rightBottomColor="#cee6d0" >}}
+
+
+{{< paper
+    image="/images/papers/GVN.png"
+    title="Open Your Eyes: Vision Enhances Message Passing Neural Networks in Link Prediction"
+    authors="Yanbin Wei, Xuehao Wang, <strong>Zhan Zhuang</strong>, Yang Chen, Shuhao Chen, Yulong Zhang, James Kwok, Yu Zhang*"
+    publication="ICML 2025, Vancouver, Canada"
+    pdf="https://openreview.net/forum?id=4y8H1sGK4Z"
+    leftTopColor="#9573a6"
+    rightBottomColor="#d69a00" >}}
 
 {{< paper
     image="/images/papers/HiRA.png"

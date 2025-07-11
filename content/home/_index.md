@@ -14,6 +14,8 @@ Prior to this, I obtained a Bachelor's degree in Computer Science and Technology
 ---
 <h2 align="center"> 🆕 News </h2>
 
+- [Jun 2025] One papers got accepted by ICCV 2025.
+- [May 2025] Two papers got accepted by ICML 2025.
 - [Jan 2025] Two papers got accepted by ICLR 2025, one as an <font color=red><strong>oral</strong></font> presentation (top 1.8%).
 - [Dec 2024] One paper got accepted by AAAI 2025 for <font color=red><strong>oral</strong></font> presentation (top 3.7%).
 - [Sep 2024] One paper got accepted by NeurIPS 2024.
@@ -24,9 +26,13 @@ Prior to this, I obtained a Bachelor's degree in Computer Science and Technology
 
 Explore the full list of publications <font color="#EE0000">[here](../publications/)</font>.
 
+- **Zhan Zhuang**, Xiequn Wang, Wei Li, Yulong Zhang, Qiushi Huang, Shuhao Chen, Xuehao Wang, Yanbin Wei, Yuhe Nie, Kede Ma, Yu Zhang, Ying Wei. [Come Together, But Not Right Now: A Progressive Strategy to Boost Low-Rank Adaptation](https://openreview.net/forum?id=Zha2m39ZoM).  In: Proceedings of the Forty-Second International Conference on Machine Learning (ICML), Vancouver, Canada, 2025.
+
 - **Zhan Zhuang**, Yu Zhang, and Ying Wei. [Gradual Domain Adaptation via Gradient Flow](https://openreview.net/forum?id=iTTZFKrlGV).  In: Proceedings of the Twelfth International Conference on Learning Representations (ICLR), Vienna, Austria, 2024. <font color="orange"> (Spotlight) </font>
 
 - **Zhan Zhuang**, Yulong Zhang, Xuehao Wang, Jiangang Lu, Ying Wei, Yu Zhang. [Time-Varying LoRA: Towards Effective Cross-Domain Fine-Tuning of Diffusion Models](https://openreview.net/forum?id=SgODU2mx9T). In: Proceedings of the Thirty-Eighth Annual Conference on Neural Information Processing Systems (NeurIPS), Vancouver, Canada, 2024.
+
+
 
 <!-- - Qiushi Huang, Tom Ko, **Zhan Zhuang**, Lilian Tang, Yu Zhang. [HiRA: Parameter-Efficient Hadamard High-Rank Adaptation for Large Language Models](https://openreview.net/forum?id=iTTZFKrlGV).  In: Proceedings of the Thirteenth International Conference on Learning Representations (ICLR), Singapore, 2025. <font color="red"> (Oral) </font> -->
 
@@ -43,7 +49,7 @@ Explore the full list of publications <font color="#EE0000">[here](../publicatio
 
 #### 👨‍💻 Academic Services
 ##### Reviewer
-- ICLR 2025, ICML 2025
+- ICLR 2025, ICML 2025, NeurIPS 2025
 - NeurIPS 2024 Workshop UniReps, AIM-FM, Compositional Learning
 - Transactions on Machine Learning Research (TMLR)
 
