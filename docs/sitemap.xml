@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://zweb.zone/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/publications/</loc>
+    <loc>https://zweb.zone/publications/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://zweb.zone/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/home/</loc>
+    <loc>https://zweb.zone/home/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://zweb.zone/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://zweb.zone/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/music/</loc>
+    <loc>https://zweb.zone/about/music/</loc>
   </url>
 </urlset>

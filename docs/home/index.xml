@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zhan ZHUANG (庄湛) on zwebrain</title>
-    <link>http://localhost:1313/home/</link>
+    <link>https://zweb.zone/home/</link>
     <description>Recent content in Zhan ZHUANG (庄湛) on zwebrain</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/home/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zweb.zone/home/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
