@@ -2,26 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zweb.zone/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://zweb.zone/publications/</loc>
+    <loc>http://localhost:1313/publications/</loc>
   </url><url>
-    <loc>https://zweb.zone/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>https://zweb.zone/home/</loc>
+    <loc>http://localhost:1313/home/</loc>
   </url><url>
-    <loc>https://zweb.zone/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://zweb.zone/home/cn/more/anime/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://zweb.zone/home/cn/more/game/</loc>
-  </url><url>
-    <loc>https://zweb.zone/home/cn/more/sport/</loc>
-  </url><url>
-    <loc>https://zweb.zone/home/cn/more/music/</loc>
-  </url><url>
-    <loc>https://zweb.zone/home/cn/</loc>
-  </url><url>
-    <loc>https://zweb.zone/home/cn/more/</loc>
+    <loc>http://localhost:1313/about/music/</loc>
   </url>
 </urlset>

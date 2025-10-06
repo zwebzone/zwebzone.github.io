@@ -25,19 +25,11 @@ enableEmoji = true
 
 [menu]
   
-
-#  [[menu.main]]
-#    # Unique identifer for a menu item
-#    identifier = "blog"
-#    url = "/blog/"   
-    # You can add extra information before the name (HTML format is supported), such as icons
-#    pre = ""
-    # You can add extra information after the name (HTML format is supported), such as icons
-#    post = ""
-    # Display name
-#    name = "Blog"
-    # Weights are used to determine the ordering
-#    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 4
 
   [[menu.main]]
     identifier = "blog"
@@ -53,13 +45,6 @@ enableEmoji = true
     url = "/publications/"
     weight = 2
 
-#  [[menu.main]]
-#    identifier = "tags"
-#    name = "Tags"
-#    url = "/tags/"
-#    weight = 4
-#    # pre = "<span data-feather='tag'></span>"
-
   [[menu.main]]
     identifier = "home"
     name = "Home"
@@ -73,7 +58,7 @@ enableEmoji = true
   avatarURL = "/images/red.jpg"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
-  avatarSize = "size-xl"
+  avatarSize = "size-l"
 
   # Description to display on homepage
   description = "Is it everything or is it just that I'm insane?"
@@ -105,14 +90,5 @@ var _hmt = _hmt || [];
 
   # Footer text
   footer = "zwebrain"
-
-  socialIcons = [
-    {name = "github", url = "https://github.com/zwebzone"},
-    {name = "outlook", url = "mailto:12250063@mail.sustech.edu.cn"},
-    # {name = "bilibili", url = "https://space.bilibili.com/8519667"},
-    # {name = "neteasecloudmusic", url="https://y.music.163.com/m/user?id=96064525"},
-    # {name = "steam", url="https://steamcommunity.com/id/zwebrain"},
-    # {name = "youtube", url = "https://www.youtube.com/channel/UCSCddBiG0wKSliowiaUaOGg"},
-  ]
 
   metaKeywords = ["blog", "zwebrain"]
