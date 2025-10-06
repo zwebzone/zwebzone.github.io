@@ -2,15 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zweb.zone/blog/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zweb.zone/blog/otv/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zweb.zone/tags/prm/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zweb.zone/tags/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zweb.zone/tags/test-time-scaling/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zweb.zone/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://zweb.zone/categories/</loc>
   </url><url>
     <loc>https://zweb.zone/publications/</loc>
   </url><url>
-    <loc>https://zweb.zone/tags/</loc>
-  </url><url>
     <loc>https://zweb.zone/home/</loc>
-  </url><url>
-    <loc>https://zweb.zone/</loc>
   </url><url>
     <loc>https://zweb.zone/about/</loc>
   </url><url>

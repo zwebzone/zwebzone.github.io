@@ -11,7 +11,7 @@ Setup:
     Add geckodriver to $PATH. Link: https://github.com/mozilla/geckodriver/releases
 """
 
-BASE_URL = 'https://zweb.zone'
+BASE_URL = 'http://localhost:1313'
 options = Options()
 if os.path.exists('/Applications/Firefox Developer Edition.app/Contents/MacOS/firefox'):
     options.binary_location = '/Applications/Firefox Developer Edition.app/Contents/MacOS/firefox'

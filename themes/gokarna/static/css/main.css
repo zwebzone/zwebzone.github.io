@@ -281,6 +281,7 @@ a:hover .feather-sun {
   color: inherit;
   display: inline-block;
   font-size: 14px;
+  /* margin-top: 6px; */
 }
 .post-tags .post-tag:hover {
   background-color: var(--light-text-color);
@@ -514,6 +515,12 @@ table td {
 .text-404 {
   margin-top: 125px;
   text-align: center;
+}
+
+.post-header-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 @media only screen and (max-width: 1120px) {

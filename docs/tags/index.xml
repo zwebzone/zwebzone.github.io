@@ -6,6 +6,21 @@
     <description>Recent content in Tags on zwebrain</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zweb.zone/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PRM</title>
+      <link>https://zweb.zone/tags/prm/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://zweb.zone/tags/prm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test-Time Scaling</title>
+      <link>https://zweb.zone/tags/test-time-scaling/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://zweb.zone/tags/test-time-scaling/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
