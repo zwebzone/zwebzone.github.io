@@ -21,9 +21,18 @@ type: page
 > 2025
 
 {{< paper
+    image="/images/papers/MoPFormer.png"
+    title="MoPFormer: Motion-Primitive Transformer for Wearable-Sensor Activity Recognition"
+    authors="<u>Hao Zhang</u>, <u><strong>Zhan Zhuang</strong></u>, Xuehao Wang, Xiaodong Yang, Yu Zhang*"
+    publication="NeurIPS 2025, San Diego, USA"
+    leftTopColor="#e6e0f3"
+    rightBottomColor="#c00000" >}}
+
+
+{{< paper
     image="/images/papers/PLAN.png"
     title="PLAN: Proactive Low-Rank Allocation for Continual Learning"
-    authors="Xiequn Wang, Zhan Zhuang, and Yu Zhang*"
+    authors="Xiequn Wang, <strong>Zhan Zhuang</strong>, and Yu Zhang*"
     publication="ICCV 2025, Honolulu, USA"
     leftTopColor="#e96661"
     rightBottomColor="#67ab9f" >}}
