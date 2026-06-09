@@ -1,0 +1,19 @@
+# Optional metadata for the Photo page.
+# Images are read automatically from static/images/photos/<character>/.
+# Add fields under the matching character and filename when metadata is ready.
+#
+# Example:
+# metadata:
+#   red:
+#     1.jpg:
+#       title: Red at the pier
+#       date: 2026-06-10
+#       location: Hong Kong
+#       camera: iPhone
+#       caption: Evening walk after rain.
+#       alt: Red in a red coat near the harbor
+
+metadata:
+  red: {}
+  nira: {}
+  nyamu: {}

@@ -1,0 +1,65 @@
+baseURL = 'https://zweb.zone/'
+publishDir = 'docs'
+languageCode = 'en-us'
+title = 'zwebrain'
+theme = 'zwebrain-home'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  description = 'Is it everything or is it just that I am insane?'
+  role = 'Ph.D. Candidate'
+  affiliation = 'City University of Hong Kong'
+
+[[menu.main]]
+  name = 'About'
+  url = '/'
+  weight = 10
+  
+[[menu.main]]
+  name = 'Research Interests'
+  pageRef = '/research'
+  weight = 20
+  params = { dividerBefore = true }
+
+[[menu.main]]
+  name = 'Publications'
+  pageRef = '/publications'
+  weight = 30
+
+[[menu.main]]
+  name = 'Tech Blogs'
+  pageRef = '/blog'
+  weight = 40
+
+[[menu.main]]
+  name = 'Teaching'
+  pageRef = '/teaching'
+  weight = 50
+
+[[menu.main]]
+  name = 'Service'
+  pageRef = '/service'
+  weight = 55
+
+[[menu.main]]
+  name = 'Awards'
+  pageRef = '/awards'
+  weight = 60
+
+[[menu.main]]
+  name = 'Talks'
+  pageRef = '/talks'
+  weight = 70
+
+[[menu.main]]
+  name = 'Hobby'
+  pageRef = '/hobby'
+  weight = 80
+  params = { dividerBefore = true }
+
+[[menu.main]]
+  name = 'Photo'
+  pageRef = '/photo'
+  weight = 90

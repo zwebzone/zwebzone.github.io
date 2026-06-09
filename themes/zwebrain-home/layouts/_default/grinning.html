@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <section class="grinning-page" aria-labelledby="grinning-title">
+    <div class="grinning-mark" aria-hidden="true">
+      <span class="grinning-eye"></span>
+      <span class="grinning-eye"></span>
+      <span class="grinning-smile"></span>
+    </div>
+
+    <h1 id="grinning-title">grinning</h1>
+    <p class="grinning-prompt">What makes you grin?</p>
+
+    <form class="grinning-form" data-grinning-form>
+      <label class="sr-only" for="grinning-input">Your answer</label>
+      <input
+        id="grinning-input"
+        name="answer"
+        type="text"
+        autocomplete="off"
+        maxlength="120"
+        placeholder="Type something..."
+        required
+      >
+      <button type="submit" aria-label="Submit answer" title="Submit">
+        <span aria-hidden="true">&rarr;</span>
+      </button>
+    </form>
+
+    <p class="grinning-response" data-grinning-response aria-live="polite"></p>
+  </section>
+
+  <script src="{{ "js/grinning.js" | relURL }}" defer></script>
+{{ end }}

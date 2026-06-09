@@ -1,0 +1,57 @@
+{{ define "main" }}
+  {{- $posts := .RegularPages.ByDate.Reverse -}}
+  {{- $paginator := .Paginate $posts 8 -}}
+  <article class="page blog-page">
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+      {{- with .Description }}
+        <p class="lede">{{ . }}</p>
+      {{- end }}
+    </header>
+
+    {{- with .Content }}
+      <div class="prose">{{ . }}</div>
+    {{- end }}
+
+    {{- if $posts }}
+      <div class="blog-list">
+        {{- range $paginator.Pages }}
+          <article class="blog-row">
+            <time class="blog-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+            <div class="blog-row-main">
+              <h2>{{ .Title }}</h2>
+              {{- with .Description }}
+                <p>{{ . }}</p>
+              {{- else }}
+                {{- with .Summary }}
+                  <p>{{ . | plainify | truncate 150 }}</p>
+                {{- end }}
+              {{- end }}
+            </div>
+            <a class="blog-more" href="{{ .RelPermalink }}">VIEW MORE</a>
+          </article>
+        {{- end }}
+      </div>
+
+      {{- if gt $paginator.TotalPages 1 }}
+        <nav class="blog-pagination" aria-label="Blog pages">
+          {{- if $paginator.HasPrev }}
+            <a href="{{ $paginator.Prev.URL }}">Previous</a>
+          {{- else }}
+            <span aria-disabled="true">Previous</span>
+          {{- end }}
+          <span>{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
+          {{- if $paginator.HasNext }}
+            <a href="{{ $paginator.Next.URL }}">Next</a>
+          {{- else }}
+            <span aria-disabled="true">Next</span>
+          {{- end }}
+        </nav>
+      {{- end }}
+    {{- else }}
+      <div class="prose">
+        <p>No blog posts have been added yet.</p>
+      </div>
+    {{- end }}
+  </article>
+{{ end }}

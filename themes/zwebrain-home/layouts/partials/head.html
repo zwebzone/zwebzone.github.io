@@ -1,0 +1,16 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{- $title := cond .IsHome .Site.Title (printf "%s | %s" .Title .Site.Title) -}}
+  <title>{{ $title }}</title>
+  {{- with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+  {{- end }}
+  {{- if .Params.noindex }}
+  <meta name="robots" content="noindex, nofollow">
+  {{- end }}
+  {{- $cssVersion := readFile "themes/zwebrain-home/static/css/main.css" | sha256 -}}
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}?v={{ $cssVersion }}">
+  <script src="{{ "js/background-lines.js" | relURL }}" defer></script>
+  <script src="{{ "js/music-tooltips.js" | relURL }}" defer></script>
+</head>

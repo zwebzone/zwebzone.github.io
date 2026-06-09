@@ -1,0 +1,30 @@
+{{ define "main" }}
+  <article class="page">
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+      {{- with .Description }}
+        <p class="lede">{{ . }}</p>
+      {{- end }}
+    </header>
+
+    {{- with .Content }}
+      <div class="prose">{{ . }}</div>
+    {{- end }}
+
+    {{- if .Pages }}
+      <div class="item-list">
+        {{- range .Pages.ByDate.Reverse }}
+          <article class="item">
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{- with .Date }}
+              <time datetime="{{ .Format "2006-01-02" }}">{{ .Format "Jan 2, 2006" }}</time>
+            {{- end }}
+            {{- with .Summary }}
+              <p>{{ . }}</p>
+            {{- end }}
+          </article>
+        {{- end }}
+      </div>
+    {{- end }}
+  </article>
+{{ end }}

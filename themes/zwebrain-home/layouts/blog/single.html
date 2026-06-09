@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <article class="page blog-post">
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+      {{- with .Date }}
+        <time class="post-date" datetime="{{ .Format "2006-01-02" }}">{{ .Format "January 2, 2006" }}</time>
+      {{- end }}
+      {{- with .Description }}
+        <p class="lede">{{ . }}</p>
+      {{- end }}
+    </header>
+
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}

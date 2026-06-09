@@ -1,0 +1,29 @@
+<aside class="sidebar">
+  <div class="identity">
+    <a class="site-title" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+    {{- with .Site.Params.role }}
+    <p class="site-role">{{ . }}</p>
+    {{- end }}
+    {{- with .Site.Params.affiliation }}
+    <p class="site-affiliation">{{ . }}</p>
+    {{- end }}
+  </div>
+
+  <nav class="site-nav" aria-label="Primary navigation">
+    {{- $current := . -}}
+    {{- range .Site.Menus.main }}
+      {{- $menuURL := .URL | relURL -}}
+      {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) (eq $menuURL $current.RelPermalink) -}}
+      {{- $divider := false -}}
+      {{- with .Params }}
+        {{- $divider = .dividerBefore | default false -}}
+      {{- end }}
+      {{- if $divider }}
+        <span class="nav-divider" aria-hidden="true"></span>
+      {{- end }}
+      <a class="nav-link{{ if $active }} is-active{{ end }}" href="{{ $menuURL }}">{{ .Name }}</a>
+    {{- end }}
+  </nav>
+
+  <p class="sidebar-credit">Made by zwebrain and Codex</p>
+</aside>

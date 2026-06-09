@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <article class="page">
+    <header class="page-header{{ with .Params.image }} has-media{{ end }}">
+      <div class="page-header-text">
+        <h1>{{ .Title }}</h1>
+        {{- with .Description }}
+          <p class="lede">{{ . }}</p>
+        {{- end }}
+        {{- with .Params.contact }}
+          <p class="header-contact">Contact me: {{ . }}</p>
+        {{- end }}
+        {{- with .Params.profile_links }}
+          <nav class="profile-links" aria-label="Profile links">
+            {{- range $index, $link := . }}
+              {{- if $index }}<span aria-hidden="true">/</span>{{ end -}}
+              <a href="{{ $link.url }}" target="_blank" rel="noopener">{{ $link.name }}</a>
+            {{- end }}
+          </nav>
+        {{- end }}
+      </div>
+      {{- with .Params.image }}
+        <figure class="page-portrait">
+          <img src="{{ . | relURL }}" alt="{{ $.Params.imageAlt | default $.Title }}">
+        </figure>
+      {{- end }}
+    </header>
+
+    {{- with .Content }}
+      <div class="prose">{{ . }}</div>
+    {{- end }}
+  </article>
+{{ end }}

@@ -1,0 +1,94 @@
+{{ define "main" }}
+  {{- $characters := slice
+    (dict "id" "red" "name" "Red" "dir" "red")
+    (dict "id" "nira" "name" "Nira" "dir" "nira")
+    (dict "id" "nyamu" "name" "Nyamu" "dir" "nyamu")
+  -}}
+  {{- $photoData := default dict .Site.Data.photos -}}
+  {{- $metadata := default dict $photoData.metadata -}}
+  <article class="page photo-page">
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+      {{- with .Description }}
+        <p class="lede">{{ . }}</p>
+      {{- end }}
+    </header>
+
+    {{- with .Content }}
+      <div class="prose">{{ . }}</div>
+    {{- end }}
+
+    <div class="photo-character-switch" role="tablist" aria-label="Photo character">
+      {{- range $index, $character := $characters }}
+        <button
+          type="button"
+          class="photo-character-button{{ if eq $index 0 }} is-active{{ end }}"
+          data-photo-character="{{ $character.id }}"
+          role="tab"
+          aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}"
+          aria-controls="photo-panel-{{ $character.id }}"
+        >{{ $character.name }}</button>
+      {{- end }}
+    </div>
+
+    <div class="photo-meta-row">
+      <p data-photo-count></p>
+      <p data-photo-page-status></p>
+    </div>
+
+    <div class="photo-gallery-frame" data-photo-gallery data-photo-page-size="6">
+      {{- range $index, $character := $characters }}
+        {{- $dirPath := printf "static/images/photos/%s" $character.dir -}}
+        {{- $characterMetadata := default dict (index $metadata $character.id) -}}
+        <section
+          class="photo-character-panel"
+          id="photo-panel-{{ $character.id }}"
+          data-photo-panel="{{ $character.id }}"
+          data-photo-name="{{ $character.name }}"
+          role="tabpanel"
+          aria-label="{{ $character.name }}"
+          {{ if ne $index 0 }}hidden{{ end }}
+        >
+          <div class="photo-grid">
+            {{- range $photoIndex, $file := sort (readDir $dirPath) "Name" "asc" }}
+              {{- if and (not $file.IsDir) (in (slice ".jpg" ".jpeg" ".png" ".webp") (lower (path.Ext $file.Name))) }}
+                {{- $photoNumber := add $photoIndex 1 -}}
+                {{- $meta := default dict (index $characterMetadata $file.Name) -}}
+                {{- $title := default (printf "%s #%d" $character.name $photoNumber) $meta.title -}}
+                <figure class="photo-card" tabindex="0" data-photo-item>
+                  <img
+                    src="{{ printf "/images/photos/%s/%s" $character.dir $file.Name | relURL }}"
+                    alt="{{ default $title $meta.alt }}"
+                    loading="lazy"
+                  >
+                  <figcaption class="photo-overlay">
+                    <span class="photo-title">{{ $title }}</span>
+                    {{- with $meta.date }}
+                      <span class="photo-detail">{{ . }}</span>
+                    {{- end }}
+                    {{- with $meta.location }}
+                      <span class="photo-detail">{{ . }}</span>
+                    {{- end }}
+                    {{- with $meta.camera }}
+                      <span class="photo-detail">{{ . }}</span>
+                    {{- end }}
+                    {{- with $meta.caption }}
+                      <span class="photo-caption">{{ . }}</span>
+                    {{- end }}
+                  </figcaption>
+                </figure>
+              {{- end }}
+            {{- end }}
+          </div>
+        </section>
+      {{- end }}
+
+      <nav class="photo-side-pagination" aria-label="Photo pages">
+        <button class="photo-page-arrow photo-page-arrow-prev" type="button" data-photo-prev aria-label="Previous photo page">&lt;</button>
+        <button class="photo-page-arrow photo-page-arrow-next" type="button" data-photo-next aria-label="Next photo page">&gt;</button>
+      </nav>
+    </div>
+  </article>
+
+  <script src="{{ "js/photo-gallery.js" | relURL }}" defer></script>
+{{ end }}
