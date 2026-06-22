@@ -60,3 +60,195 @@ answers:
   "bliss": "祈りを束ね 空に放て この心を流れる"
   "Everybody Say": "Q"
   "クズリ念": "最喜欢的乐队ZUTOMAYO，孤独じゃなきゃ眠れない"
+
+music:
+  "Mirror Tune":
+    id: 1936011826
+    type: "song"
+    title: "Mirror Tune"
+    height: 66
+  "Humanoid":
+    id: 1325357379
+    type: "song"
+    title: "Humanoid"
+    height: 66
+  "The Story of Us":
+    id: 3351162324
+    type: "song"
+    title: "The Story of Us"
+    height: 66
+  "Trace":
+    id: 3351163070
+    type: "song"
+    title: "Trace"
+    height: 66
+  "♣Q":
+    id: 3336807559
+    type: "song"
+    title: "♣Q"
+    height: 66
+  "Darken":
+    id: 1492367830
+    type: "song"
+    title: "Darken"
+    height: 66
+  "Wings":
+    id: 2118436701
+    type: "song"
+    title: "Wings"
+    height: 66
+  "STUDY ME":
+    id: 1448424898
+    type: "song"
+    title: "STUDY ME"
+    height: 66
+  "b r o k e n":
+    id: 2073406124
+    type: "song"
+    title: "b r o k e n"
+    height: 66
+  "Ham":
+    id: 1467857808
+    type: "song"
+    title: "Ham"
+    height: 66
+  "Goddess":
+    id: 3318991294
+    type: "song"
+    title: "Goddess"
+    height: 66
+  "Truth in Lies":
+    id: 2159057240
+    type: "song"
+    title: "Truth in Lies"
+    height: 66
+  "Anytime Anywhere":
+    id: 2118435472
+    type: "song"
+    title: "Anytime Anywhere"
+    height: 66
+  "Inside Joke":
+    id: 1854474192
+    type: "song"
+    title: "Inside Joke"
+    height: 66
+  "♦Q":
+    id: 545947162
+    type: "song"
+    title: "♦Q"
+    height: 66
+  "Haba":
+    id: 1819306496
+    type: "song"
+    title: "Haba"
+    height: 66
+  "Bluer":
+    id: 2158936856
+    type: "song"
+    title: "Bluer"
+    height: 66
+  "Again and Again":
+    id: 1350129459
+    type: "song"
+    title: "Again and Again"
+    height: 66
+  "Final Call":
+    id: 1983311140
+    type: "song"
+    title: "Final Call"
+    height: 66
+  "us":
+    id: 1388137929
+    type: "song"
+    title: "us"
+    height: 66
+  "Medianoche":
+    id: 3344456514
+    type: "song"
+    title: "Medianoche"
+    height: 66
+  "Grab the air":
+    id: 1447595486
+    type: "song"
+    title: "Grab the air"
+    height: 66
+  "CREAM":
+    id: 3362571879
+    type: "song"
+    title: "CREAM"
+    height: 66
+  "♥Q":
+    id: 27853206
+    type: "song"
+    title: "♥Q"
+    height: 66
+  "lowmotion algae":
+    id: 3362571887
+    type: "song"
+    title: "lowmotion algae"
+    height: 66
+  "Seigi":
+    id: 1366904119
+    type: "song"
+    title: "Seigi"
+    height: 66
+  "Flare":
+    id: 2073406128
+    type: "song"
+    title: "Flare"
+    height: 66
+  "MILABO":
+    id: 1462389992
+    type: "song"
+    title: "MILABO"
+    height: 66
+  "December":
+    id: 2073406135
+    type: "song"
+    title: "December"
+    height: 66
+  "One Reason":
+    id: 1902315990
+    type: "song"
+    title: "One Reason"
+    height: 66
+  "♠Q":
+    id: 1971734682
+    type: "song"
+    title: "♠Q"
+    height: 66
+  "Hey Song":
+    id: 2071177218
+    type: "song"
+    title: "Hey Song"
+    height: 66
+  "jam":
+    id: 1902315989
+    type: "song"
+    title: "jam"
+    height: 66
+  "Rewrite":
+    id: 1388137930
+    type: "song"
+    title: "Rewrite"
+    height: 66
+  "hanataba":
+    id: 2141232519
+    type: "song"
+    title: "hanataba"
+    height: 66
+  "0623":
+    id: 1963443271
+    type: "song"
+    title: "0623"
+    height: 66
+  "bliss":
+    id: 2118435473
+    type: "song"
+    title: "bliss"
+    height: 66
+  "クズリ念":
+    id: 2639244959
+    type: "song"
+    title: "クズリ念"
+    height: 66

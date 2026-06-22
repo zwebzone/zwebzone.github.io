@@ -22,10 +22,23 @@
     </form>
 
     <p class="grinning-response" data-grinning-response aria-live="polite"></p>
+
+    <div class="grinning-music" data-grinning-music hidden>
+      <div class="grinning-music-frame" data-grinning-music-frame></div>
+    </div>
+
+    {{- with .Content }}
+      <div class="grinning-content">
+        {{ . }}
+      </div>
+    {{- end }}
   </section>
 
   {{- with .Site.Data.grinning.answers }}
     <script id="grinning-answers" type="application/json">{{ . | jsonify | safeJS }}</script>
+  {{- end }}
+  {{- with .Site.Data.grinning.music }}
+    <script id="grinning-music" type="application/json">{{ . | jsonify | safeJS }}</script>
   {{- end }}
   {{- $grinningJsVersion := readFile "themes/zwebrain-home/static/js/grinning.js" | sha256 -}}
   <script src="{{ "js/grinning.js" | relURL }}?v={{ $grinningJsVersion }}" defer></script>
