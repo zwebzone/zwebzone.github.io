@@ -246,37 +246,10 @@ a:hover {
 }
 
 .grinning-mark {
-  height: 4.8rem;
-  position: relative;
-  width: 6rem;
-}
-
-.grinning-eye {
-  background: var(--text);
-  border-radius: 50%;
-  height: 0.52rem;
-  position: absolute;
-  top: 0.75rem;
-  width: 0.52rem;
-}
-
-.grinning-eye:first-child {
-  left: 1.35rem;
-}
-
-.grinning-eye:nth-child(2) {
-  right: 1.35rem;
-}
-
-.grinning-smile {
-  border-bottom: 0.42rem solid var(--accent);
-  border-radius: 0 0 4rem 4rem;
-  bottom: 0.35rem;
-  height: 2.55rem;
-  left: 0.55rem;
-  position: absolute;
-  transform: rotate(2deg);
-  width: 4.9rem;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  font-size: 3.8rem;
+  line-height: 1;
+  text-shadow: 0 0.55rem 1.5rem rgba(128, 39, 208, 0.12);
 }
 
 .grinning-prompt {

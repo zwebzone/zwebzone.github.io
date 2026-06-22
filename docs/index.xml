@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zhan Zhuang (庄湛) on zwebrain</title><link>https://zweb.zone/</link><description>Recent content in Zhan Zhuang (庄湛) on zwebrain</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zweb.zone/index.xml" rel="self" type="application/rss+xml"/><item><title>OTV</title><link>https://zweb.zone/blog/otv/</link><pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate><guid>https://zweb.zone/blog/otv/</guid><description>This post was migrated from the previous site.</description></item><item><title>grinning</title><link>https://zweb.zone/grinning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zweb.zone/grinning/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhan Zhuang (庄湛) on zwebrain</title>
+    <link>https://zweb.zone/</link>
+    <description>Recent content in Zhan Zhuang (庄湛) on zwebrain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zweb.zone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OTV</title>
+      <link>https://zweb.zone/blog/otv/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zweb.zone/blog/otv/</guid>
+      <description>This post was migrated from the previous site.</description>
+    </item>
+    
+    <item>
+      <title>grinning</title>
+      <link>https://zweb.zone/grinning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zweb.zone/grinning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
