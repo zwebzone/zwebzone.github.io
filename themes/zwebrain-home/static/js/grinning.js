@@ -20,6 +20,11 @@
   );
   const fallback = "可能还需要再想想...";
   const numericFallback = "不对不对";
+  const missHints = new Map([
+    [5, "想想扑克的花色？"],
+    [10, "似乎有两个专辑..."],
+    [15, "尝试输入一下那首歌？"]
+  ]);
   const musicTypeCodes = {
     playlist: 0,
     album: 1,
@@ -27,6 +32,7 @@
   };
   const sparkleGlyphs = ["✦", "✧", "★", "♡", "•"];
   let musicHasOpened = false;
+  let missCount = 0;
 
   if (!form || !response) {
     return;
@@ -111,9 +117,12 @@
       ? answers.get(answer)
       : lowerCaseAnswers.get(answer.toLowerCase());
     const isHit = output !== undefined;
+    if (!isHit) {
+      missCount += 1;
+    }
     const resolvedOutput = output !== undefined
       ? output
-      : (/^\d{4}$/.test(answer) ? numericFallback : fallback);
+      : (missHints.get(missCount) || (/^\d{4}$/.test(answer) ? numericFallback : fallback));
     response.textContent = resolvedOutput;
     response.classList.remove("is-visible");
     requestAnimationFrame(() => response.classList.add("is-visible"));

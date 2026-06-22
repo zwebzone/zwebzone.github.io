@@ -5,31 +5,39 @@ answers:
   "Humanoid": "最喜欢的！"
   "The Story of Us": "线索: WXYZ"
   "zhuang": "你好你好"
+  "扑克牌": "线索：♠♥♣♦"
   "gninning": "哈哈哈好对称哇！"
   "YOASOBI": "和Yorushika（ヨルシカ）、ZUTOMAYO（ずっと真夜中でいいのに。）简称三夜"
   "Trace": "また会う日まで なんて行く宛もないけど"
   "♣Q": "Everybody Say Q"
   "Darken": "第二喜欢的！"
   "黑桃": "线索：再试试别的呢？"
+  "♠": "线索：再试试别的呢？"
+  "spades": "线索：再试试别的呢？"
   "Wings": "I’ve been flying flying with my broken wings"
   "zhan": "你好你好"
   "STUDY ME": "お勉強しといてよ　問い説いてよ？"
   "Q": "♠♥♣♦"
+  "黑桃Q": "幸せになれたかい？"
   "b r o k e n": "6，这个找到也很难：Sorry I’m not, nobody knows"
   "Ham": "一言目はきっと　久しぶり"
   "Goddess": ""
+  "spade": "线索：再试试别的呢？"
   "ChiliChill": "不是ChiliChili，也不是ChillChill"
   "zhuangzhan": "你好你好"
   "Truth in Lies": "折り合いつけたくもないよ"
   "Anytime Anywhere": "线索: ABCD, A=Y=Z, B=X=5"
   "Inside Joke": "また笑い転げられるのさ　あばらの骨が折れるまで"
   "♦Q": ""
+  "方块Q": ""
   "milet": "喜欢的歌手，超级安利！"
   "2923": "此为答案一"
   "Haba": "深呼吸して今"
   "Bluer": "4：44，我也记不得为什么这么设计了..."
   "Again and Again": "It’s time to go"
   "红桃": "线索：培根密码"
+  "heart": "线索：培根密码"
+  "红桃Q": "さあ掻き鳴らせ証明の歌"
   "Final Call": "7： It’s now or never, change my life"
   "us": "the story of ..."
   "zwebrain": "你好你好"
@@ -37,28 +45,47 @@ answers:
   "Grab the air": "10，这也能猜到吗"
   "CREAM": "C-R-E-A-M, I'm Creamy"
   "♥Q": "さあ掻き鳴らせ証明の歌"
+  "纸牌": "线索：♠♥♣♦"
   "grinning": "为什么是grinning呢,,,"
   "lowmotion algae": "さよならなんて 未だ わからない わかんない殻だけど"
   "Seigi": "くすぐったい笑みで今は全て"
   "方片": "线索：CDYZ"
+  "方块": "线索：CDYZ"
+  "♦": "线索：CDYZ"
   "Flare": "一番に光れ　笑われても~"
   "庄": "你好你好"
   "MILABO": "Me Lab！"
   "December": "12：But I see your smile. It resembles mine."
   "ZUTOMAYO": "最喜欢的乐队，也超级安利！"
   "One Reason": ""
+  "扑克": "线索：♠♥♣♦"
+  "四花色": "♠♥♣♦"
   "庄方宜": "喜欢"
   "♠Q": "幸せになれたかい？"
   "梅花A": "线索：耳机孔"
+  "梅花Q": "Everybody Say Q"
   "Hey Song": "1, 2, 3 Your smile is the best thing in the world~"
   "grinnirg": "哈哈哈好对称哇！"
   "红心": "线索：培根密码"
+  "红心Q": "さあ掻き鳴らせ証明の歌"
+  "花色": "线索：♠♥♣♦"
+  "hearts": "线索：培根密码"
   "jam": "J：目前最难的一个可能。"
   "Rewrite": "We are forever. We'll live we'll live forever~"
   "hanataba": "8：あなたが隣にいれば 闇夜に光が灯った気がした"
   "0623": "Happy birthday!"
+  "方片Q": ""
+  "钻石": "线索：CDYZ"
+  "diamond": "线索：CDYZ"
+  "diamonds": "线索：CDYZ"
   "bliss": "祈りを束ね 空に放て この心を流れる"
   "Everybody Say": "Q"
+  "四种花色": "♠♥♣♦"
+  "♣": "线索：梅花A，看到可以听一下"
+  "club": "线索：梅花A，看到可以听一下"
+  "clubs": "线索：梅花A，看到可以听一下"
+  "♥": "线索：培根密码"
+  "黑红梅方": "♠♥♣♦"
   "クズリ念": "最喜欢的乐队ZUTOMAYO，孤独じゃなきゃ眠れない"
 
 music:
@@ -83,6 +110,11 @@ music:
     title: "Trace"
     height: 66
   "♣Q":
+    id: 3336807559
+    type: "song"
+    title: "♣Q"
+    height: 66
+  "梅花Q":
     id: 3336807559
     type: "song"
     title: "♣Q"
@@ -137,6 +169,16 @@ music:
     type: "song"
     title: "♦Q"
     height: 66
+  "方片Q":
+    id: 545947162
+    type: "song"
+    title: "♦Q"
+    height: 66
+  "方块Q":
+    id: 545947162
+    type: "song"
+    title: "♦Q"
+    height: 66
   "Haba":
     id: 1819306496
     type: "song"
@@ -182,6 +224,16 @@ music:
     type: "song"
     title: "♥Q"
     height: 66
+  "红桃Q":
+    id: 27853206
+    type: "song"
+    title: "♥Q"
+    height: 66
+  "红心Q":
+    id: 27853206
+    type: "song"
+    title: "♥Q"
+    height: 66
   "lowmotion algae":
     id: 3362571887
     type: "song"
@@ -213,6 +265,11 @@ music:
     title: "One Reason"
     height: 66
   "♠Q":
+    id: 1971734682
+    type: "song"
+    title: "♠Q"
+    height: 66
+  "黑桃Q":
     id: 1971734682
     type: "song"
     title: "♠Q"
